@@ -8,7 +8,7 @@
      */
 ?>
 <!DOCTYPE html>
-<html                                                   <?php language_attributes(); ?>>
+<html                                                                  <?php language_attributes(); ?>>
 
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
@@ -16,7 +16,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body                                                   <?php body_class(); ?>>
+<body                                                                  <?php body_class(); ?>>
     <?php if (function_exists('wp_body_open')) {
             wp_body_open();
         } else {
@@ -62,7 +62,7 @@
                             <div class="logo img-fluid">
                                 <div class="site-logo">
                                     <a href="<?php echo esc_url(home_url('/')); ?>"><img
-                                            src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft.png"
+                                            src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-logo.png"
                                             alt="innovasoft">
                                     </a>
                                 </div>
@@ -123,7 +123,7 @@
                                     <div class="contact-btn-mobile d-lg-none d-md-block">
 
                                         <a href="<?php echo esc_url(home_url('index.php/contact-us')); ?>"
-                                            class="btn cnt-btn bg-innova-color-230">Contact
+                                            class="btn cnt-btn bg-innova-color-230 innova-color-10">Contact
                                             Us</a>
                                     </div>
                                 </nav>
@@ -132,7 +132,7 @@
                         <div
                             class="contact-btn col-lg-3 col-md-6 col-8 d-none d-lg-flex align-self-center justify-content-center ">
                             <a href="<?php echo esc_url(home_url('index.php/contact-us')); ?>"
-                                class="btn cnt-btn bg-innova-color-230">Contact
+                                class="btn cnt-btn bg-innova-color-230 innova-color-10">Contact
                                 us</a>
                         </div>
                     </div>

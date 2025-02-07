@@ -91,6 +91,15 @@ Updated: 2024-02-07 13:22:36
 .innova-color-240 {
   color: #343434;
 }
+.innova-color-250 {
+  color: #263238;
+}
+.innova-color-260 {
+  color: #363940;
+}
+.innova-color-270 {
+  color: #999999;
+}
 
 /* Background Color Scheme */
 .bg-innova-color-10 {
@@ -129,6 +138,9 @@ Updated: 2024-02-07 13:22:36
 .bg-innova-color-120 {
   background-color: #6db3f8;
 }
+.bg-innova-color-125 {
+  background-color: #6db3f880;
+}
 .bg-innova-color-130 {
   background-color: #67a8f0;
 }
@@ -161,6 +173,81 @@ Updated: 2024-02-07 13:22:36
 }
 .bg-innova-color-230 {
   background-color: #2a3ba0;
+}
+.bg-innova-color-240 {
+  background-color: #263238;
+}
+
+/* Navbar Styles */
+
+/* Shared Styles */
+.title {
+  font-family: "Saira";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 49.8px;
+  text-transform: uppercase;
+  text-align: left;
+}
+.paragraph {
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 1.04px;
+  text-align: left;
+}
+.cnt-btn {
+  border-radius: 6px;
+  padding: 10px 25px !important;
+  border: 0px;
+  font-weight: 500 !important;
+}
+.cnt-btn:hover {
+  background-color: #6db3f8;
+}
+.card-btn {
+  border-radius: 6px;
+  padding: 10px 25px;
+  border: 0px;
+  font-weight: 500;
+}
+.card-btn:hover {
+  background-color: #619de8;
+}
+
+/* Service Section Styles */
+.card-title {
+  text-align: center;
+  font-family: "Saira";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.24px;
+  padding-top: 15px;
+}
+
+.card-text {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.18px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+/* Offer Section Styles */
+
+/* Logo Section Styles */
+.logo-section {
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .menu-sec {
@@ -345,26 +432,6 @@ a:focus {
   margin-bottom: 8px;
 }
 
-.title {
-  color: #343434;
-  font-family: "Inter";
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 49px;
-}
-
-.paragraph {
-  color: #999;
-  font-family: "Inter";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 28px;
-  /* 177.778% */
-  letter-spacing: 1.04px;
-}
-
 .gs_logo_area.carousel_has--dots .gs_logo_container {
   padding-bottom: 30px;
 }
@@ -380,54 +447,6 @@ a:focus {
   border: 0px;
   padding: 5px !important;
   box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 255) !important;
-}
-
-.card-title {
-  color: #363940;
-  text-align: center;
-  font-family: "Inter";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 36px;
-  /* 150% */
-  letter-spacing: 0.24px;
-  padding-top: 15px;
-}
-
-.card-text {
-  color: #999;
-  text-align: center;
-  font-family: "Inter";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 32px;
-  /* 177.778% */
-  letter-spacing: 0.18px;
-  padding-top: 25px;
-  padding-bottom: 50px;
-}
-
-.card-btn {
-  border-radius: 6px;
-  background: #6db3f8;
-  padding: 10px 25px;
-  border: 0px;
-  font-weight: 500;
-}
-
-.cnt-btn {
-  border-radius: 6px;
-  color: #fff !important;
-  /* background: #2a3ba0; */
-  padding: 10px 25px !important;
-  border: 0px;
-  font-weight: 500 !important;
-}
-.cnt-btn:hover {
-  /* background-color: #2a3ba0 !important; */
-  color: #fff !important;
 }
 
 .card-margin-top {

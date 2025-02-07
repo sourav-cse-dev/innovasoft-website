@@ -1,11 +1,11 @@
 <?php
-/**
- * The template for displaying the footer.
- *
- * Contains the closing of the #content div and all content after
- *
- * @package VW Corporate Lite
- */
+    /**
+     * The template for displaying the footer.
+     *
+     * Contains the closing of the #content div and all content after
+     *
+     * @package VW Corporate Lite
+     */
 ?>
 
 <footer class="text-center text-lg-start" role="contentinfo" style="margin-top: 50px;">
@@ -30,15 +30,18 @@
                     <a href="https://www.facebook.com/innovasoftltd" class=" me-3">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <!-- <a href="#" class=" me-3">
+                    <a href="#" class=" me-3">
                         <i class="fab fa-instagram"></i>
-                    </a> -->
+                    </a>
+                    <a href="#" class=" me-3">
+                        <i class="fab fa-twitter"></i>
+                    </a>
                     <a href="https://www.linkedin.com/company/innovasoft-limited" class=" me-3">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <!-- <a href="#" class=" me-3">
-                        <i class="fab fa-github"></i>
-                    </a> -->
+                    <a href="#" class=" me-3">
+                        <i class="fab fa-youtube"></i>
+                    </a>
                 </section>
             </div>
             <!-- Grid column -->
@@ -149,11 +152,11 @@
                 </div>
                 <div class="footer-map-div">
                     <?php
-// Example of embedding Contact Form 7 shortcode in a PHP file
-$map_shortcode = '[iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.024286646024!2d90.39341997608122!3d23.78214947864877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c70e80aaa2b3%3A0xe9a2f353de6c695f!2sInnovaSoft%20Limited!5e0!3m2!1sen!2sbd!4v1706506128000!5m2!1sen!2sbd
+                        // Example of embedding Contact Form 7 shortcode in a PHP file
+                        $map_shortcode = '[iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.024286646024!2d90.39341997608122!3d23.78214947864877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c70e80aaa2b3%3A0xe9a2f353de6c695f!2sInnovaSoft%20Limited!5e0!3m2!1sen!2sbd!4v1706506128000!5m2!1sen!2sbd
 "  height="250" style="border-radius:6px;"]';
-echo do_shortcode($map_shortcode);
-?>
+                        echo do_shortcode($map_shortcode);
+                    ?>
                 </div>
             </div>
             <!-- Grid column -->
@@ -167,7 +170,7 @@ echo do_shortcode($map_shortcode);
         <span id="currentYear"></span> © Innovasoft Limited. All Rights Reserved.
     </div>
 </footer>
-<?php wp_footer();?>
+<?php wp_footer(); ?>
 <script>
 document.getElementById("currentYear").innerHTML = new Date().getFullYear();
 </script>
