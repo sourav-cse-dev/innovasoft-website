@@ -318,9 +318,9 @@ a:focus {
 .current-menu-item > a,
 .current-menu-parent > a,
 .current-menu-ancestor > a {
-  color: #73bf44 !important;
+  /* color: #2a3ba0 !important; */
   padding-bottom: 5px;
-  border-bottom: 2px solid #73bf44;
+  /* border-bottom: 2px solid #2a3ba0; */
 }
 
 .main-navigation ul ul li {
@@ -381,7 +381,7 @@ a:focus {
 
 .header-title-blue {
   font-family: "Saira";
-  font-size: 700;
+  font-weight: 700;
 }
 
 .header-paragraph {
@@ -419,7 +419,7 @@ a:focus {
 
 .header-img {
   width: 100%;
-  height: 90%;
+  /* height: 90%; */
 }
 
 .sub-title {

@@ -17,8 +17,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 col-xl-6 d-none d-lg-block">
-                <img class="img-fluid header-img"
+            <div class="col-12 col-lg-6 col-xl-6 d-none d-lg-block relative">
+                <img class="img-fluid header-img absolute"
                     src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-header-image.png"
                     alt="innovasoft-header-image">
 
@@ -61,7 +61,7 @@
             <div class="col-12 col-md-6 col-lg-3 p-2">
                 <div class="card">
                     <div class="card-body text-center">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-full-stack-development.png"
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fullstack-development.png"
                             class="" alt="...">
                         <h5 class="card-title innova-color-260 mt-2 mb-2">Full-Stack Development</h5>
                         <p class="card-text innova-color-270 mb-2">We solve any problem that
@@ -79,7 +79,7 @@
             <div class="col-12 col-md-6 col-lg-3 p-2">
                 <div class="card">
                     <div class="card-body text-center">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-mvp-development.png"
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mvp-development.png"
                             class="" alt="...">
                         <h5 class="card-title innova-color-260 mt-2 mb-2">MVP Development</h5>
                         <p class="card-text innova-color-270 mb-2">Got investors to impress?
@@ -97,7 +97,7 @@
             <div class="col-12 col-md-6 col-lg-3 p-2">
                 <div class="card">
                     <div class="card-body text-center">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-global-expansion.png"
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/global-expansion.png"
                             class="" alt="...">
                         <h5 class="card-title innova-color-260 mt-2 mb-2">Global Expansion</h5>
                         <p class="card-text innova-color-270 mb-2">Build an offshore team which
@@ -135,7 +135,7 @@
                 <div class="">
                     <div class="d-flex justify-content-lg-start justify-content-center align-items-center">
                         <div class="card-image-div" style="background-color: #FFF1EB;">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-custom-software-development.png"
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/custom-software-development.png"
                                 class="" alt="...">
                         </div>
                     </div>
@@ -151,7 +151,7 @@
                 <div class="">
                     <div class="d-flex justify-content-lg-start justify-content-center align-items-center">
                         <div class="card-image-div" style="background-color: #E4FCFF;">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-web-development.png"
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/web-development.png"
                                 class="" alt="...">
                         </div>
                     </div>
@@ -166,7 +166,7 @@
                 <div class="">
                     <div class="d-flex justify-content-lg-start justify-content-center align-items-center">
                         <div class="card-image-div" style="background-color: #EEF0FF;">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-mobile-app-development.png"
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mobile-app-development.png"
                                 class="" alt="...">
                         </div>
                     </div>
@@ -181,7 +181,7 @@
                 <div class="">
                     <div class="d-flex justify-content-lg-start justify-content-center align-items-center">
                         <div class="card-image-div" style="background-color: #E5F7FF;">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-uiux-design.png"
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/ui-ux-design.png"
                                 class="" alt="...">
                         </div>
                     </div>
@@ -196,7 +196,7 @@
                 <div class="">
                     <div class="d-flex justify-content-lg-start justify-content-center align-items-center">
                         <div class="card-image-div" style="background-color: #FFF2F8;">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-software-quality-assurance.png"
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/software-quality-assurance.png"
                                 class="" alt="...">
                         </div>
                     </div>
@@ -212,7 +212,7 @@
                 <div>
                     <div class="d-flex justify-content-lg-start justify-content-center align-items-center">
                         <div class="card-image-div" style="background-color: #DEFFEE;">
-                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-maintenance-support.png"
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/maintenance-support.png"
                                 class="" alt="...">
                         </div>
                     </div>
@@ -234,8 +234,8 @@
 <!-- logo section starts  -->
 <div class="logo-section bg-innova-color-240">
     <?php
-                                           // Example of embedding Contact Form 7 shortcode in a PHP file
-        $form_shortcode = '[gslogo id=1]'; // Replace with your Contact Form 7 shortcode
+                                            // Example of embedding Contact Form 7 shortcode in a PHP file
+        $form_shortcode = '[gslogo id=55]'; // Replace with your Contact Form 7 shortcode
 
         // Use do_shortcode() to execute the Contact Form 7 shortcode
         echo do_shortcode($form_shortcode);
