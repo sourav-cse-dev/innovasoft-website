@@ -234,8 +234,8 @@
 <!-- logo section starts  -->
 <div class="logo-section bg-innova-color-240">
     <?php
-                                            // Example of embedding Contact Form 7 shortcode in a PHP file
-        $form_shortcode = '[gslogo id=55]'; // Replace with your Contact Form 7 shortcode
+                                           // Example of embedding Contact Form 7 shortcode in a PHP file
+        $form_shortcode = '[gslogo id=1]'; // Replace with your Contact Form 7 shortcode
 
         // Use do_shortcode() to execute the Contact Form 7 shortcode
         echo do_shortcode($form_shortcode);

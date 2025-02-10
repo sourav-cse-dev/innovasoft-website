@@ -8,7 +8,7 @@
      */
 ?>
 
-<footer class="text-center text-lg-start" role="contentinfo" style="margin-top: 50px;">
+<footer class="text-center text-lg-start bg-innova-color-250" role="contentinfo">
     <!-- Grid container -->
     <div class="container p-4">
         <!--Grid row-->
