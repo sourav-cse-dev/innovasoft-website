@@ -100,6 +100,15 @@ Updated: 2024-02-07 13:22:36
 .innova-color-270 {
   color: #999999;
 }
+.innova-color-280 {
+  color: #696969;
+}
+.innova-color-290 {
+  color: #000;
+}
+.innova-color-300 {
+  color: #000000;
+}
 
 /* Background Color Scheme */
 .bg-innova-color-10 {
@@ -179,12 +188,10 @@ Updated: 2024-02-07 13:22:36
 }
 
 .bg-innova-color-250 {
-  background-color: #6db3f830;
+  background: rgba(109, 179, 248, 0.3);
 }
 
-/* Navbar Styles */
-
-/* Shared Styles */
+/* Shared styles starts here */
 .title {
   font-family: "Saira";
   font-size: 40px;
@@ -196,11 +203,11 @@ Updated: 2024-02-07 13:22:36
 }
 .paragraph {
   font-family: "Inter";
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 300;
-  line-height: 28px;
-  letter-spacing: 1.04px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.18px;
   text-align: left;
 }
 .cnt-btn {
@@ -221,8 +228,91 @@ Updated: 2024-02-07 13:22:36
 .card-btn:hover {
   background-color: #619de8;
 }
+/* Shared styles ends here */
 
-/* Service Section Styles */
+/* Navbar/Header section styles starts here */
+.dots-block {
+  background-image: url("assets/images/dot-image.png");
+  background-repeat: no-repeat;
+}
+.banner-img {
+  background-image: url(./assets/images/innovasoft-header-image.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+.banner-content {
+  padding: 214px 0px 214px 0px;
+}
+
+.header-title {
+  font-family: "Saira";
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 73.5px;
+  /* 167.308% */
+  letter-spacing: 1.04px;
+  margin-bottom: 15px;
+}
+
+.header-title-blue {
+  font-family: "Saira";
+  font-weight: 700;
+}
+
+.header-paragraph {
+  margin-top: 22px;
+  color: #999;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.18px;
+  width: 94%;
+}
+
+.header-btn {
+  border-radius: 0.375rem;
+  background: #43a661;
+  margin-top: 25px;
+  display: inline-flex;
+  padding: 12px 30px;
+}
+
+.header-btn:hover {
+  background: #1c6e34;
+}
+
+.header-btn-text {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  outline: 0px !important;
+}
+
+.header-img {
+  width: 100% !important;
+  /* height: 90%; */
+}
+/* Navbar/Header section styles ends here */
+
+/* Service section styles starts here */
+.card {
+  /* height: 420px; */
+  padding: 20px;
+  border-radius: 10px;
+  border: 0px;
+  box-shadow: 0px 2px 23px 0px rgba(76, 76, 76, 0.04);
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 .card-title {
   text-align: center;
   font-family: "Saira";
@@ -231,10 +321,10 @@ Updated: 2024-02-07 13:22:36
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0.24px;
-  padding-top: 15px;
 }
 
 .card-text {
+  height: 64px;
   text-align: center;
   font-family: "Inter";
   font-size: 18px;
@@ -242,11 +332,20 @@ Updated: 2024-02-07 13:22:36
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0.18px;
-  padding-top: 25px;
-  padding-bottom: 50px;
+}
+/* Service section styles ends here*/
+
+/* Offer section styles starts here*/
+.offer-section {
+  height: 1030px;
+  margin-top: 140px;
+  margin-bottom: 140px;
 }
 
-/* Offer Section Styles */
+.offer-section-content {
+  display: flex;
+}
+/* Offer section styles ends here*/
 
 /* Logo Section Styles */
 .logo-section {
@@ -255,6 +354,7 @@ Updated: 2024-02-07 13:22:36
 }
 
 .menu-sec {
+  padding: 10px 0px 10px 0px;
   z-index: 99999;
   border: 0px;
   box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.1);
@@ -363,69 +463,6 @@ a:focus {
   background: transparent !important;
 }
 
-.dots-block {
-  background-image: url("assets/images/dot-image.png");
-  background-repeat: no-repeat;
-}
-
-.header-content {
-  padding-top: 55px;
-}
-
-.header-title {
-  font-family: "Saira";
-  font-size: 49px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 73.5px;
-  /* 167.308% */
-  letter-spacing: 1.04px;
-  margin-bottom: 15px;
-}
-
-.header-title-blue {
-  font-family: "Saira";
-  font-weight: 700;
-}
-
-.header-paragraph {
-  margin-top: 22px;
-  color: #999;
-  font-family: "Inter";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0.18px;
-  width: 94%;
-}
-
-.header-btn {
-  border-radius: 0.375rem;
-  background: #43a661;
-  margin-top: 25px;
-  display: inline-flex;
-  padding: 12px 30px;
-}
-
-.header-btn:hover {
-  background: #1c6e34;
-}
-
-.header-btn-text {
-  color: #fff;
-  font-family: "Inter";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  outline: 0px !important;
-}
-
-.header-img {
-  width: 100%;
-  /* height: 90%; */
-}
-
 .sub-title {
   color: #43a661;
   font-family: "Inter";
@@ -438,13 +475,6 @@ a:focus {
 
 .gs_logo_area.carousel_has--dots .gs_logo_container {
   padding-bottom: 30px;
-}
-
-.card {
-  padding: 20px;
-  border-radius: 10px;
-  border: 0px;
-  box-shadow: 0px 2px 23px 0px rgba(76, 76, 76, 0.04);
 }
 
 .shadowless-card {
@@ -702,10 +732,10 @@ a:focus {
   margin-top: 30px;
 }
 
+/* Footer section styles starts here */
 .footer-title {
-  color: #000;
-  font-family: "Inter";
-  font-size: 18px;
+  font-family: "Saira";
+  font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: 168%;
@@ -713,16 +743,16 @@ a:focus {
 }
 
 .footer-text {
-  color: #000;
-  font-family: Inter;
-  font-size: 14px;
+  font-family: "Inter";
+  font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: 168%;
-  /* 30.24px */
   letter-spacing: 0.54px;
 }
-
+.fa-li {
+  margin-top: 3px;
+}
 .footer-bottom-section {
   color: #6a6a6a;
   border-top: 1px solid #dddddd;
@@ -733,6 +763,10 @@ a:focus {
   line-height: 124.5%;
   /* 29.88px */
 }
+.footer-map-div div {
+  height: 200px !important;
+}
+/* Footer section styles ends here */
 
 .full-stack-dev-ul {
   color: #999;
@@ -742,10 +776,6 @@ a:focus {
   font-weight: 300;
   line-height: 28px;
   letter-spacing: 1.04px;
-}
-
-.footer-map-div div {
-  height: 200px !important;
 }
 
 .toggle-nav i {

@@ -12,18 +12,18 @@
     <!-- Grid container -->
     <div class="container p-4">
         <!--Grid row-->
-        <div class="row">
+        <div class="row" style="margin-top: 40px">
             <!-- Grid column -->
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft.png" alt="innovasoft">
-                <p class="mt-2 paragraph">
-                    A software development Company organised and incorporated in 2023 under the Companies Act of
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-logo.png" alt="innovasoft" style="width: 207px">
+                <p class="mt-2 paragraph innova-color-280">
+                    A software development Company organised and incorporated in 2022 under the Companies Act of
                     Bangladesh.
                 </p>
                 <!-- Section: Social -->
-                <section class="">
+                <section style="background-color: transparent">
                     <div>
-                        <h6 class="text-uppercase footer-title">Follow Us on</h6>
+                        <h6 class="footer-title innova-color-300">Follow Us on</h6>
                         <hr class="mt-0 d-inline-block mx-auto"
                             style="width: 60px; background-color: #000; height: 2px; border: 1px solid;" />
                     </div>
@@ -46,60 +46,9 @@
             </div>
             <!-- Grid column -->
 
-
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 d-none d-lg-block">
-                <div class="d-flex justify-content-center">
-                    <div>
-                        <h6 class="text-uppercase footer-title">Visit</h6>
-                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                            style="width: 40px; background-color: #000; height: 2px;border: 1px solid;" />
-                        <p>
-                            <a href="<?php echo esc_url(home_url('/about-us')); ?>" class="footer-text">About Us</a>
-                        </p>
-                        <!-- <p>
-                            <a href="#" class="footer-text">Our Services</a>
-                        </p> -->
-                        <!-- <p>
-                            <a href="#" class="footer-text">Portfolios</a>
-                        </p> -->
-                        <p>
-                            <a href="<?php echo esc_url(home_url('/career')); ?>" class="footer-text">Career</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Grid column -->
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 d-none d-lg-block">
-                <h6 class="text-uppercase footer-title">Help</h6>
-                <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                    style="width: 40px; background-color: #000; height: 2px;border: 1px solid;" />
-
-                <p>
-                    <a href="<?php echo esc_url(home_url('/our-services/staff-augmentation')); ?>"
-                        class="footer-text">Staff Augmentation</a>
-                </p>
-                <p>
-                    <a href="<?php echo esc_url(home_url('/our-services/full-stack-development')); ?>"
-                        class="footer-text">Full-Stack Development</a>
-                </p>
-                <p>
-                    <a href="<?php echo esc_url(home_url('/our-services/mvp-development-service')); ?>"
-                        class="footer-text">MVP Development</a>
-                </p>
-                <p>
-                    <a href="<?php echo esc_url(home_url('/our-services/global-expansion')); ?>"
-                        class="footer-text">Global Expansion</a>
-                </p>
-            </div>
-            <!-- Grid column -->
-
-
-
-            <!-- Grid column -->
-            <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h6 class="text-uppercase footer-title">Contact</h6>
+             <!-- Grid column -->
+             <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="footer-title innova-color-300">Contacts</h6>
                 <hr class="mb-4 mt-0 d-inline-block mx-auto"
                     style="width: 40px; background-color: #000; height: 2px;border: 1px solid;" />
                 <ul class="fa-ul" style="margin-left: 1.65em;">
@@ -117,7 +66,7 @@
                                         stroke-linejoin="round" />
                                 </svg>
                             </span>
-                            <span class="footer-text">House#B-109, Road#8, Mohakhali DOHS, Dhaka-1206, Bangladesh
+                            <span class="footer-text innova-color-290">House#B-109, Road#8, Mohakhali DOHS, Dhaka-1206, Bangladesh
                             </span>
                         </div>
                     </li>
@@ -127,7 +76,7 @@
                                 <path
                                     d="M1 2.66667C1 2.22464 1.17559 1.80072 1.48816 1.48816C1.80072 1.17559 2.22464 1 2.66667 1H5.4C5.57483 1.00013 5.74519 1.05525 5.88696 1.15754C6.02874 1.25984 6.13475 1.40413 6.19 1.57L7.43833 5.31417C7.50158 5.50445 7.4941 5.71116 7.41726 5.89637C7.34042 6.08158 7.19938 6.23288 7.02 6.3225L5.13917 7.26417C6.0611 9.30461 7.69538 10.9389 9.73583 11.8608L10.6775 9.98C10.7671 9.80062 10.9184 9.65958 11.1036 9.58274C11.2888 9.5059 11.4956 9.49841 11.6858 9.56167L15.43 10.81C15.596 10.8653 15.7404 10.9714 15.8427 11.1134C15.945 11.2553 16 11.4259 16 11.6008V14.3333C16 14.7754 15.8244 15.1993 15.5118 15.5118C15.1993 15.8244 14.7754 16 14.3333 16H13.5C6.59667 16 1 10.4033 1 3.5V2.66667Z"
                                     stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg></span><span class=" footer-text">+880 1714 066 521</span>
+                            </svg></span><span class=" footer-text innova-color-290">+880 1714 066 521</span>
                     </li>
                     <li class="mb-3">
                         <span class="fa-li"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
@@ -135,7 +84,7 @@
                                 <path
                                     d="M1 4L8.89 9.26C9.21866 9.47928 9.6049 9.5963 10 9.5963C10.3951 9.5963 10.7813 9.47928 11.11 9.26L19 4M3 15H17C17.5304 15 18.0391 14.7893 18.4142 14.4142C18.7893 14.0391 19 13.5304 19 13V3C19 2.46957 18.7893 1.96086 18.4142 1.58579C18.0391 1.21071 17.5304 1 17 1H3C2.46957 1 1.96086 1.21071 1.58579 1.58579C1.21071 1.96086 1 2.46957 1 3V13C1 13.5304 1.21071 14.0391 1.58579 14.4142C1.96086 14.7893 2.46957 15 3 15Z"
                                     stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg></span><span class=" footer-text">info@innovasoftltd.com</span>
+                            </svg></span><span class=" footer-text innova-color-290">info@innovasoftltd.com</span>
                     </li>
                 </ul>
             </div>
@@ -144,9 +93,58 @@
 
 
             <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 d-none d-lg-block">
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <h6 class="footer-title innova-color-300">Visit</h6>
+                        <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                            style="width: 40px; background-color: #000; height: 2px;border: 1px solid;" />
+                        <p>
+                            <a href="<?php echo esc_url(home_url('/about-us')); ?>" class="footer-text innova-color-290">About Us</a>
+                        </p>
+                        <!-- <p>
+                            <a href="#" class="footer-text">Blogs</a>
+                        </p>
+                        <p>
+                            <a href="#" class="footer-text">Case Studies</a>
+                        </p> -->
+                        <p>
+                            <a href="<?php echo esc_url(home_url('/career')); ?>" class="footer-text innova-color-290">Careers</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 d-none d-lg-block">
+                <h6 class="footer-title innova-color-300">Help</h6>
+                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                    style="width: 40px; background-color: #000; height: 2px;border: 1px solid;" />
+
+                <p>
+                    <a href="<?php echo esc_url(home_url('/our-services/staff-augmentation')); ?>"
+                        class="footer-text innova-color-290">Staff Augmentation</a>
+                </p>
+                <p>
+                    <a href="<?php echo esc_url(home_url('/our-services/full-stack-development')); ?>"
+                        class="footer-text innova-color-290">Full-Stack Development</a>
+                </p>
+                <p>
+                    <a href="<?php echo esc_url(home_url('/our-services/mvp-development-service')); ?>"
+                        class="footer-text innova-color-290">MVP Development</a>
+                </p>
+                <p>
+                    <a href="<?php echo esc_url(home_url('/our-services/global-expansion')); ?>"
+                        class="footer-text innova-color-290">Global Expansion</a>
+                </p>
+            </div>
+            <!-- Grid column -->
+
+
+            <!-- Grid column -->
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                 <div>
-                    <h6 class="text-uppercase footer-title">Find us on map</h6>
+                    <h6 class="text-uppercase footer-title innova-color-300">Find us on map</h6>
                     <hr class="mb-4 mt-0 d-inline-block mx-auto"
                         style="width: 40px; background-color: #000; height: 2px;border: 1px solid;" />
                 </div>

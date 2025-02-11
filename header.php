@@ -8,7 +8,7 @@
      */
 ?>
 <!DOCTYPE html>
-<html                                                                                      <?php language_attributes(); ?>>
+<html                                                                                           <?php language_attributes(); ?>>
 
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
@@ -16,7 +16,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body                                                                                      <?php body_class(); ?>>
+<body                                                                                           <?php body_class(); ?>>
     <?php if (function_exists('wp_body_open')) {
             wp_body_open();
         } else {
@@ -54,7 +54,7 @@
                 </div>
             </div>
             <?php }?>
-            <div class="menu-sec bg-innova-color-10 header py-8<?php if (get_theme_mod('vw_corporate_lite_sticky_header', false) == 1 || get_theme_mod('vw_corporate_lite_stickyheader_hide_show', false) == 1) {?> header-sticky"
+            <div class="menu-sec bg-innova-color-10 header<?php if (get_theme_mod('vw_corporate_lite_sticky_header', false) == 1 || get_theme_mod('vw_corporate_lite_stickyheader_hide_show', false) == 1) {?> header-sticky"
                 <?php } else {?>close-sticky<?php }?>">
                 <div class="container">
                     <div class="row">

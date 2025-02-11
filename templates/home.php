@@ -1,9 +1,8 @@
-<div class="dots-block" style="margin-top: 60px; margin-bottom: 50px;">
-    <div class="container-sm">
-        <div class="row flex-column-reverse flex-lg-row p-2">
+<div class="banner-img" >
+    <div class="container-sm banner-content">
+        <div class="row p-2">
             <div class="col-12 col-lg-6 col-xl-6">
-                <div class="header-text-block">
-                    <div class="header-content">
+            <div class="header-content">
                         <div class="header-title innova-color-240">Empowering Businesses with
                             Exceptional <span class="header-title-blue innova-color-120">Software Solutions</span></div>
                         <div class="header-paragraph">Welcome to Innova Soft Ltd., where innovation meets excellence. We specialize in staff augmentation, full-stack development, and MVP creation, empowering businesses with tailored, high-quality solutions. Partner with us to drive growth, global expansion, and success in today’s dynamic market. Discover the power of innovation with your trusted tech partner, Innova Soft Ltd.</div>
@@ -15,17 +14,12 @@
                                     d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                             </svg></a>
                     </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-6 col-xl-6 d-none d-lg-block relative">
-                <img class="img-fluid header-img absolute"
-                    src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-header-image.png"
-                    alt="innovasoft-header-image">
-
             </div>
         </div>
     </div>
 </div>
+
+
 
 <!-- Our Services section starts -->
 <div class="services-section bg-innova-color-125"
@@ -43,73 +37,94 @@
             <div class="col-12 col-md-6 col-lg-3 p-2">
                 <div class="card">
                     <div class="card-body text-center">
+                        <div>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/staff-augmentation.png"
-                            class="" alt="...">
-                        <h5 class="card-title innova-color-260 mt-2 mb-2">Staff Augmentation</h5>
-                        <p class="card-text innova-color-270 mb-2">Our developers work with you,
+                        class="" alt="...">
+                        </div>
+
+                        <h5 class="card-title innova-color-260">Staff Augmentation</h5>
+                        <p class="card-text innova-color-270">Our developers work with you,
                             as part of your team.</p>
-                        <a href="<?php echo esc_url(home_url('/our-services/staff-augmentation')); ?>"
+                        <div>
+                            <a href="<?php echo esc_url(home_url('/our-services/global-expansion-2')); ?>"
                             class="btn card-btn bg-innova-color-120 innova-color-10">Learn More <svg xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"
                                 style="width: 18px; height: 16px;">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                             </svg></a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 p-2">
                 <div class="card">
                     <div class="card-body text-center">
+                        <div>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fullstack-development.png"
-                            class="" alt="...">
-                        <h5 class="card-title innova-color-260 mt-2 mb-2">Full-Stack Development</h5>
-                        <p class="card-text innova-color-270 mb-2">We solve any problem that
+                        class="" alt="...">
+                        </div>
+
+                        <h5 class="card-title innova-color-260">Full-Stack Development</h5>
+                        <p class="card-text innova-color-270">We solve any problem that
                             you have and deploy them too.</p>
-                        <a href="<?php echo esc_url(home_url('/our-services/full-stack-development-2')); ?>"
+                        <div>
+                            <a href="<?php echo esc_url(home_url('/our-services/global-expansion-2')); ?>"
                             class="btn card-btn bg-innova-color-120 innova-color-10">Learn More <svg xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"
                                 style="width: 18px; height: 16px;">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                             </svg></a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 p-2">
                 <div class="card">
                     <div class="card-body text-center">
+                        <div>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mvp-development.png"
-                            class="" alt="...">
-                        <h5 class="card-title innova-color-260 mt-2 mb-2">MVP Development</h5>
-                        <p class="card-text innova-color-270 mb-2">Got investors to impress?
+                        class="" alt="...">
+                        </div>
+
+                        <h5 class="card-title innova-color-260">MVP Development</h5>
+                        <p class="card-text innova-color-270">Got investors to impress?
                             We will build that for you.</p>
-                        <a href="<?php echo esc_url(home_url('/our-services/mvp-development-service')); ?>"
+                        <div>
+                            <a href="<?php echo esc_url(home_url('/our-services/global-expansion-2')); ?>"
                             class="btn card-btn bg-innova-color-120 innova-color-10">Learn More <svg xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"
                                 style="width: 18px; height: 16px;">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                             </svg></a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 p-2">
                 <div class="card">
                     <div class="card-body text-center">
+                        <div>
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/global-expansion.png"
-                            class="" alt="...">
-                        <h5 class="card-title innova-color-260 mt-2 mb-2">Global Expansion</h5>
-                        <p class="card-text innova-color-270 mb-2">Build an offshore team which
+                        class="" alt="...">
+                        </div>
+
+                        <h5 class="card-title innova-color-260">Global Expansion</h5>
+                        <p class="card-text innova-color-270">Build an offshore team which
                             functions a seamless extensions
                             of your office.</p>
-                        <a href="<?php echo esc_url(home_url('/our-services/global-expansion-2')); ?>"
+                        <div>
+                            <a href="<?php echo esc_url(home_url('/our-services/global-expansion-2')); ?>"
                             class="btn card-btn bg-innova-color-120 innova-color-10">Learn More <svg xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor"
                                 style="width: 18px; height: 16px;">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                             </svg></a>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -120,7 +135,7 @@
 <!-- Our Services section ends -->
 
 <!-- What We offer section starts -->
-<div class="offer-section" style="padding-top: 40px; padding-left: 12px; padding-right: 12px;">
+<div class="offer-section">
     <div class="container-sm">
         <div class="row pt-4 pb-4">
             <div class="col-md-12 col-lg-4 p-2">
@@ -130,7 +145,7 @@
                 <p class="paragraph innova-color-250">InnovaSoft Limited offers custom software development services tailored to your business needs, delivering software solutions that help businesses streamline their operations and drive growth.</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row offer-section-content">
             <div class="col-12 col-md-6 col-lg-4 p-2">
                 <div class="">
                     <div class="d-flex justify-content-lg-start justify-content-center align-items-center">
