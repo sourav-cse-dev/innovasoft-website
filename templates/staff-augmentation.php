@@ -4,26 +4,31 @@
         <div class="row flex-lg-row flex-column-reverse p-2">
             <div class="col-md-12 col-lg-6 pt-md-3">
                 <div>
-                    <div class="sub-title text-center text-lg-start">Staff Augmentation</div>
-                    <div class="title text-center text-lg-start">A Key to closing the skills gap</div>
-                    <p class="paragraph text-center text-lg-start mt-4">Empower your team with top-tier talent through
+                    <div class="title text-center text-lg-start innova-color-230">Staff Augmentation</div>
+                    <div class="sub-section">
+                        <div class="sub-title text-center text-lg-start">A Key to closing the skills gap</div>
+                        <p class="paragraph text-center text-lg-start mt-4">Empower your team with top-tier talent through
                         our Staff Augmentation services. As businesses evolve, so do their needs for specialized skills
                         and expertise. At Innova Soft Ltd., we bridge the skills gap by providing on-demand access to
                         skilled professionals who seamlessly integrate into your existing workforce.</p>
-                    <div class="text-center text-lg-start">
+                        <div class="text-center text-lg-start">
                         <a href="<?php echo esc_url(home_url('index.php/contact-us')); ?>"
-                            class="btn btn-success card-btn mt-4">Let's
-                            talk <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            class="btn card-btn mt-4 bg-innova-color-120 innova-color-10">Let's
+                            talk
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                 stroke-width="3" stroke="currentColor" style="width: 18px; height: 16px;">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                            </svg></a>
+                            </svg>
+                        </a>
                     </div>
+                    </div>
+
                 </div>
             </div>
             <div class="col-12 col-lg-6 col-xl-6 d-none d-lg-block text-center">
                 <img class="img-fluid pb-3"
-                    src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-staff-augmentation-bnr.png"
+                    src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/staff-augmentation-banner.png"
                     alt="">
             </div>
         </div>
@@ -45,7 +50,7 @@
         <div class="row flex-lg-row flex-column p-3 mt-5">
             <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center">
                 <img class="img-fluid"
-                    src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-staff-augmentation-sub-section.png"
+                    src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/staff-augmentation-sub-section.png"
                     alt="">
             </div>
             <div class="col-12 col-lg-7 mt-4">
@@ -97,7 +102,7 @@
                             <div>
                                 <div class="circle1 position-relative" style="margin: 0 auto;">
                                     <span class="position-absolute translate-middle badge rounded-circle"
-                                        style="top: 20px; left: 15px; background-color: #8ECAA0;width: 22px; height:22px;">
+                                        style="top: 20px; left: 15px; background-color: #2a3ba0;width: 22px; height:22px;">
                                         1
                                     </span>
                                 </div>
@@ -116,7 +121,7 @@
                             <div>
                                 <div class="circle2 position-relative" style="margin: 0 auto;">
                                     <span class="position-absolute translate-middle badge rounded-circle"
-                                        style="top: 20px; left: 15px; background-color: #8ECAA0;width: 22px; height:22px;">
+                                        style="top: 20px; left: 15px; background-color: #2a3ba0;width: 22px; height:22px;">
                                         2
                                     </span>
                                 </div>
@@ -134,7 +139,7 @@
                             <div>
                                 <div class="circle3 position-relative" style="margin: 0 auto;">
                                     <span class="position-absolute translate-middle badge rounded-circle"
-                                        style="top: 20px; left: 15px; background-color: #8ECAA0;width: 22px; height:22px;">
+                                        style="top: 20px; left: 15px; background-color: #2a3ba0;width: 22px; height:22px;">
                                         3
                                     </span>
                                 </div>
@@ -153,7 +158,7 @@
                             <div>
                                 <div class="circle4 position-relative" style="margin: 0 auto;">
                                     <span class="position-absolute translate-middle badge rounded-circle"
-                                        style="top: 20px; left: 15px; background-color: #8ECAA0;width: 22px; height:22px;">
+                                        style="top: 20px; left: 15px; background-color: #2a3ba0;width: 22px; height:22px;">
                                         4
                                     </span>
                                 </div>
@@ -236,18 +241,18 @@
 <!-- FAQ section ends  -->
 
 <!-- conatct us sectoin starts  -->
-<div class="my-5" style="background-color: #EAFFE4;">
+<div class="connect-section bg-innova-color-260">
     <div class="container py-4">
         <div class="dots-block-left">
             <div class="dots-block-right">
                 <div class="d-flex justify-content-center align-items-center p-5">
                     <div>
-                        <div class="title text-center" style="color: #43A661;">
+                        <div class="title text-center  innova-color-10">
                             Connect today for limitless possibilities!
                         </div>
-                        <p class="paragraph mt-3 text-center">Unlock opportunities and solutions with a simple slick</p>
+                        <p class="paragraph mt-3 text-center innova-color-10">Unlock opportunities and solutions with a simple slick</p>
                         <div class="text-center">
-                            <a href="<?php echo esc_url(home_url('index.php/contact-us')); ?>" class="btn btn-success card-btn"
+                            <a href="<?php echo esc_url(home_url('index.php/contact-us')); ?>" class="btn connect-btn bg-innova-color-140 innova-color-10"
                                 style="margin-top: 10px;">Let's
                                 talk<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="3" stroke="currentColor" style="width: 18px; height: 16px;">
