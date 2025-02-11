@@ -1,44 +1,62 @@
 <!-- header section starts -->
-<div class="container">
-    <div class="dots-block">
-        <div class="row p-2">
-            <div class="col-md-12 col-lg-6 pt-md-3">
-                <div class="mt-5">
-                    <div class="sub-title text-center text-lg-start">About Us</div>
-                    <div class="title text-center text-lg-start">Crafting Tomorrow's Solutions, Today</div>
-                    <p class="paragraph text-center text-lg-start mt-3">Innova Soft Ltd. is a pioneering IT solutions
-                        provider dedicated to driving innovation and excellence in the digital realm. With a fervent
-                        passion for technology and an unwavering commitment to client success, we specialize in
-                        delivering cutting-edge software solutions tailored to the evolving needs of businesses
-                        worldwide. At Innova Soft Ltd., we pride ourselves on our ability to harness the latest
-                        advancements in technology to solve complex challenges and propel businesses forward. Our team
-                        of experts is driven by a shared vision to revolutionize the digital landscape and empower
-                        organizations to thrive in the modern era.</p>
-                </div>
+<div class="header-part">
+    <div class="position-relative">
+        <div class="dots-block-img position-absolute">
+            <img class="dots-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/dot-image.png"
+                alt="">
+        </div>
+    </div>
+    <div class="container">
+        <!-- Dots Background -->
+
+        <div class="d-flex justify-content-center align-items-center flex-lg-row flex-column">
+            <!-- Left Side: Text Content -->
+            <div class="col-12 col-lg-6">
+                <h2 class="header-title text-start fw-bold text-uppercase innova-color-230">Crafting </br> Tomorrow's
+                    Solutions,
+                    </br>Today</h2>
+                <p class="header-paragraph innova-color-270 text-start mt-3">
+                    Innova Soft Ltd. is a pioneering IT solutions provider dedicated to driving innovation and
+                    excellence in
+                    the digital realm. With a fervent passion for technology and an unwavering commitment to client
+                    success,
+                    we specialize in delivering cutting-edge software solutions tailored to the evolving needs of
+                    businesses
+                    worldwide. At Innova Soft Ltd., we pride ourselves on our ability to harness the latest advancements
+                    in
+                    technology to solve complex challenges and propel businesses forward. Our team of experts is driven
+                    by a
+                    shared vision to revolutionize the digital landscape and empower organizations to thrive in the
+                    modern
+                    era.
+                </p>
             </div>
-            <div class="col-12 col-lg-6 col-xl-6 d-none d-lg-block text-center">
-                <img class="img-fluid mt-5"
-                    src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-about-us.png"
-                    style="height: 80%;" alt="">
+
+            <!-- Right Side: Images -->
+            <div class="d-none d-lg-block col-12 col-lg-6 text-center ">
+                <div class="img-container">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/about-us-banner.png"
+                        class="img-fluid main-img">
+                </div>
             </div>
         </div>
     </div>
 </div>
+
 <!-- header section ends  -->
 
 <!-- Our Story section starts  -->
-<div style="background-color: #F7FBFB;" class="section-gap">
+<div class="section-gap bg-innova-color-10">
     <div class="dots-bottom-left">
         <div class="container">
-            <div class="d-flex justify-content-center align-items-center flex-lg-row flex-column">
+            <div class="d-flex justify-content-center align-items-center flex-lg-row flex-column gap-5">
                 <div class="col-12 col-lg-5">
-                    <img class="img-fluid"
-                        src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-our-story.png"
-                        alt="">
+                    <img class="img-fluid our-story-img"
+                        src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/our-story-about.png" alt="">
                 </div>
                 <div class="col-12 col-lg-7">
-                    <div class="title text-center ">Our Story</div>
-                    <p class="paragraph mt-3 p-3 text-center text-lg-start">
+                    <div class="title text-center innova-color-230">Our Story</div>
+                    <p class="paragraph mt-3 p-lg-5 p-3 text-start innova-color-310">
                         Innova Soft Ltd., situated in the vibrant city of Dhaka, Bangladesh, emerged onto the software
                         development scene in early 2023. Founded by seasoned professionals with extensive backgrounds as
                         project managers, solution architects, and technical team leads, our journey began with a vision
