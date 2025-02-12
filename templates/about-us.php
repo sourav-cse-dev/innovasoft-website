@@ -82,10 +82,10 @@
 <!-- Our Mission section starts  -->
 <div class="section-gap">
     <div class="container">
-        <div class="d-flex justify-content-center align-items-center flex-lg-row flex-column-reverse mt-lg-5">
+        <div class="d-flex justify-content-center align-items-center flex-lg-row flex-column-reverse mt-lg-5 gap-5">
             <div class="col-12 col-lg-7">
-                <div class="title text-center ">Our Mission</div>
-                <p class="paragraph mt-3 p-3 text-center text-lg-start">
+                <div class="title text-center innova-color-230">Our Mission</div>
+                <p class="paragraph mt-3 p-3 text-start innova-color-310">
                     As a forward-thinking company, we are constantly exploring new technologies and methodologies to
                     stay ahead of the curve. Innovation is at the heart of everything we do, and we continuously strive
                     to push the boundaries of what's possible.
@@ -102,7 +102,7 @@
             </div>
             <div class="col-12 col-lg-5">
                 <img class="img-fluid"
-                    src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-our-mission.png" alt="">
+                    src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/our-mission-about.png" alt="">
             </div>
 
         </div>
@@ -113,27 +113,29 @@
 <!-- Why choose us starts  -->
 <!-- <div class="box-1 mt-lg-5">
     <div class="box-2"> -->
-<div class="main-box" style="background-color: #F7FBFB;">
+<div class="section-gap bg-innova-color-10">
     <div class="container h-0 py-md-5 py-2">
         <div class="d-flex justify-content-center align-items-center flex-lg-row flex-column">
             <div class="col-12 col-lg-6">
                 <div class="d-flex justify-content-center align-items-center">
                     <img class="img-fluid d-none d-lg-block why-choose-img"
-                        src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-why-choose-us.png"
+                        src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/why-choose-us-about.png"
                         alt="">
                 </div>
             </div>
-            <div class="col-12 col-lg-6 p-5 my-3 my-lg-0">
-                <div class="sub-title text-center text-lg-start">Why choose us?</div>
-                <div class="title text-center text-lg-start">Our vision is to be the preferred partner for
-                    businesses seeking transformative digital solutions.</div>
-                <p class="paragraph mt-3 text-center text-lg-start">We envision a future where technology
+            <div class="col-12 col-lg-6 my-3 my-lg-0">
+                <div class="title text-start innova-color-230 mb-3">Why choose us?</div>
+                <div class="sub-title text-start innova-color-120 mb-4">Our vision is to be the preferred
+                    partner for
+                    </br> businesses seeking transformative digital </br> solutions.</div>
+                <p class="paragraph mb-5 text-start innova-color-310">We envision a future where
+                    technology
                     enhances every aspect of business operations, enabling organizations to achieve their full
                     potential and make a positive impact on the world.</p>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item my-3">
                         <h2 class="accordion-header ">
-                            <button class="accordion-button about-faq-title" style="border: 1px solid #F0F0F0;"
+                            <button class="accordion-button about-faq-title bg-white" style="border: 1px solid #F0F0F0;"
                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                 aria-expanded="true" aria-controls="collapseOne">
                                 Expertise
