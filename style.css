@@ -306,11 +306,40 @@ Updated: 2024-02-07 13:22:36
   background-image: url("assets/images/dot-image.png");
   background-repeat: no-repeat;
 }
-.banner-img {
+/* .banner-img {
   background-image: url(./assets/images/innovasoft-header-image.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
+} */
+.banner-img {
+  position: relative; /* Make sure the container is positioned so the pseudo-element is placed relative to it */
+  overflow: hidden;   /* Optional: helps contain the pseudo-element */
+
+}
+ 
+/* Create a pseudo-element that holds the background image */
+.banner-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+   background-image: url(./assets/images/innovasoft-header-image.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  z-index: -1;  /* Ensure the background stays behind any content */
+  opacity: 1;   /* Default opacity for desktop */
+  transition: opacity 0.3s ease; /* Smooth transition when opacity changes */
+}
+ 
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .banner-img::before {
+    opacity: 0.5; /* Lower opacity on mobile devices */
+  }
 }
 .banner-content {
   padding: 214px 0px 214px 0px;
@@ -1377,6 +1406,9 @@ a:focus {
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
+  .banner-content {
+    padding: 64px 0px 64px 0px;
+  }
   /* .sf-arrows .sf-with-ul:after {
         content: '\f106';
         position: absolute;
@@ -1394,6 +1426,9 @@ a:focus {
 }
 
 @media (max-width: 991px) {
+  .banner-content {
+    padding: 64px 0px 64px 0px;
+  }
   .main-navigation ul li {
     margin-right: 0px !important;
   }
