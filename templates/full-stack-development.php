@@ -98,11 +98,11 @@
         </div>
         <div class="position-relative">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/arrow-top.png"
-                class="fsd-arrow-top1 position-absolute d-none d-lg-block" />
+                class="arrow-top-left position-absolute d-none d-lg-block" />
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/arrow-bottom.png"
-                class="fsd-arrow-bottom position-absolute d-none d-lg-block" />
+                class="arrow-bottom position-absolute d-none d-lg-block" />
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/arrow-top.png"
-                class="fsd-arrow-top2 position-absolute d-none d-lg-block" />
+                class="arrow-top-right position-absolute d-none d-lg-block" />
             <div class="row d-flex bg-transparent">
                 <div class="col-12 col-md-6 col-lg-3 p-2">
                     <div class="card-margin-top">
