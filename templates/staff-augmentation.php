@@ -1,16 +1,20 @@
 <!-- header section starts -->
 <div style="margin-top: 60px; margin-bottom: 50px;">
+    <div class="position-relative">
+        <div class="dots-block-img position-absolute">
+            <img class="dots-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/dot-image.png"
+                alt="">
+        </div>
+    </div>
+
     <div class="container">
         <div class="row flex-lg-row flex-column-reverse p-2">
             <div class="col-md-12 col-lg-6 pt-md-3">
                 <div>
                     <div class="title text-center text-lg-start innova-color-230">Staff Augmentation</div>
                     <div class="sub-section">
-                        <div class="sub-title text-center text-lg-start">A Key to closing the skills gap</div>
-                        <p class="paragraph text-center text-lg-start mt-4">Empower your team with top-tier talent through
-                        our Staff Augmentation services. As businesses evolve, so do their needs for specialized skills
-                        and expertise. At Innova Soft Ltd., we bridge the skills gap by providing on-demand access to
-                        skilled professionals who seamlessly integrate into your existing workforce.</p>
+                        <div class="sub-section-title text-center text-uppercase text-lg-start innova-color-240">A Key to closing the skills gap</div>
+                        <p class="paragraph text-center text-lg-start mt-4 innova-color-270">Empower your team with top-tier talent through our Staff Augmentation services. As businesses evolve, so do their needs for specialized skills and expertise. At Innova Soft Ltd., we bridge the skills gap by providing on-demand access to skilled professionals who seamlessly integrate into your existing workforce.</p>
                         <div class="text-center text-lg-start">
                         <a href="<?php echo esc_url(home_url('index.php/contact-us')); ?>"
                             class="btn card-btn mt-4 bg-innova-color-120 innova-color-10">Let's
@@ -37,13 +41,13 @@
 <!-- header section ends  -->
 
 <!-- section 2 starts  -->
-<div style="background-color: #F7FBFB;" class="section-gap">
+<div class="section-gap">
     <div class="container">
         <div class="d-flex justify-content-center align-items-center">
             <div class="py-1 text-center">
-                <div class="title">Enhance your team with Staff Augmentation solutions</div>
+                <div class="title innova-color-230">Enhance your team with Staff Augmentation solutions</div>
                 <div class="d-flex justify-content-center align-items-center">
-                    <div class="paragraph mt-3">Seamlessly integrate expertise for agile project success</div>
+                    <div class="paragraph mt-3 innova-color-310">Seamlessly integrate expertise for agile project success</div>
                 </div>
             </div>
         </div>
@@ -54,7 +58,7 @@
                     alt="">
             </div>
             <div class="col-12 col-lg-7 mt-4">
-                <p class="paragraph mt-3 text-justify">
+                <p class="paragraph mt-3 text-justify innova-color-310">
                     Explore the strategic advantages of Staff Augmentation — a dynamic solution to fortify your team's
                     capabilities and drive project efficiency. Staff augmentation empowers businesses to augment their
                     workforce with specialized talent, optimizing project outcomes and fostering innovation.
@@ -82,8 +86,8 @@
     <div class="container">
         <div class="d-flex justify-content-center align-items-center">
             <div class="py-3 text-center w-75">
-                <div class="title">Optimized onboarding for enhanced productivity</div>
-                <p class="paragraph mt-3 text-center">Uncover an efficient process engineered to seamlessly integrate
+                <div class="title text-center innova-color-230">Optimized onboarding for enhanced productivity</div>
+                <p class="paragraph mt-3 text-center innova-color-310">Uncover an efficient process engineered to seamlessly integrate
                     top-tier professionals into your projects. With our swift deployment and rigorous oversight, unlock
                     the full potential of your augmented team for unmatched productivity and success.</p>
             </div>
@@ -106,8 +110,8 @@
                                         1
                                     </span>
                                 </div>
-                                <h5 class="card-title card-margin-top">Consultation</h5>
-                                <p class="card-text mb-2 ">Collaborate with our experts to outline your project
+                                <h5 class="card-title card-margin-top innova-color-260">Consultation</h5>
+                                <p class="card-text mb-2 innova-color-270">Collaborate with our experts to outline your project
                                     requirements, skill sets needed, and project timelines. During this phase, we assess
                                     your needs and tailor a staffing plan accordingly.</p>
                             </div>
@@ -125,8 +129,8 @@
                                         2
                                     </span>
                                 </div>
-                                <h5 class="card-title card-margin-top">Candidate Selection</h5>
-                                <p class="card-text mb-2">Once requirements are defined, we meticulously screen and
+                                <h5 class="card-title card-margin-top innova-color-260">Candidate Selection</h5>
+                                <p class="card-text mb-2 innova-color-270">Once requirements are defined, we meticulously screen and
                                     select candidates from our talent pool. We evaluate candidates based on skills,
                                     experience, and cultural fit to ensure they seamlessly integrate into your team.</p>
                             </div>
@@ -143,8 +147,8 @@
                                         3
                                     </span>
                                 </div>
-                                <h5 class="card-title card-margin-top">Onboarding</h5>
-                                <p class="card-text mb-2">Our team facilitates seamless integration of selected
+                                <h5 class="card-title card-margin-top innova-color-260">Onboarding</h5>
+                                <p class="card-text mb-2 innova-color-270">Our team facilitates seamless integration of selected
                                     candidates into your team and processes ensuring terms are clearly defined and
                                     mutually agreed upon. We handle administrative tasks, such as paperwork and legal
                                     formalities, to streamline the process..</p>
@@ -162,8 +166,8 @@
                                         4
                                     </span>
                                 </div>
-                                <h5 class="card-title card-margin-top">Support</h5>
-                                <p class="card-text mb-2">We provide comprehensive support to integrate new team members
+                                <h5 class="card-title card-margin-top innova-color-260">Support</h5>
+                                <p class="card-text mb-2 innova-color-270">We provide comprehensive support to integrate new team members
                                     smoothly. This includes orientation sessions, access to necessary resources, and
                                     ongoing communication to address any concerns.</p>
                             </div>
@@ -181,15 +185,15 @@
     <div class="container">
         <div class="d-flex justify-content-center align-items-center">
             <div>
-                <div class="title text-center">FAQ (Frequently Asked Question)</div>
-                <p class="paragraph mt-3 text-center">Get clarity on common queries regarding our Staff Augmentation
+                <div class="title text-center innova-color-230">FAQ (Frequently Asked Question)</div>
+                <p class="paragraph mt-3 text-center innova-color-310">Get clarity on common queries regarding our Staff Augmentation
                     services.</p>
             </div>
         </div>
         <div class="d-flex justify-content-center align-items-center">
             <div class="accordion w-75" id="accordionExample">
                 <div class="accordion-item my-3">
-                    <h2 class="accordion-header faq-title" id="headingOne">
+                    <h2 class="accordion-header faq-title innova-color-320" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             1. How quickly can I get started with Staff Augmentation services?
@@ -197,14 +201,14 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body faq-details">
+                        <div class="accordion-body faq-details innova-color-270">
                             Our streamlined process allows us to match you with qualified candidates quickly, typically
                             within a few weeks of initial consultation.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item my-3">
-                    <h2 class="accordion-header faq-title" id="headingTwo">
+                    <h2 class="accordion-header faq-title innova-color-320" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             2. Can I extend or reduce the duration of staff augmentation as per my project needs?
@@ -212,14 +216,14 @@
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body faq-details">
+                        <div class="accordion-body faq-details innova-color-270">
                             Yes, our flexible staffing model allows you to adjust the duration and size of your
                             augmented team based on project requirements.
                         </div>
                     </div>
                 </div>
                 <div class="accordion-item my-3">
-                    <h2 class="accordion-header faq-title" id="headingThree">
+                    <h2 class="accordion-header faq-title innova-color-320" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             3. How do you ensure the quality of staff provided through augmentation?
@@ -227,7 +231,7 @@
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body faq-details">
+                        <div class="accordion-body faq-details innova-color-270">
                             We conduct rigorous screening and assessment processes to ensure that all candidates meet
                             our high standards of expertise and professionalism. Additionally, we provide ongoing
                             support and supervision to ensure optimal performance and client satisfaction.

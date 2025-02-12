@@ -112,6 +112,9 @@ Updated: 2024-02-07 13:22:36
 .innova-color-310 {
   color: #838383;
 }
+.innova-color-320 {
+  color: #333333;
+}
 
 /* Background Color Scheme */
 .bg-innova-color-10 {
@@ -238,6 +241,24 @@ Updated: 2024-02-07 13:22:36
   border: 0px;
   font-weight: 500;
 }
+.card-title {
+  text-align: center;
+  font-family: "Saira";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.24px;
+}
+.card-text {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.18px;
+}
 /* Shared styles ends here */
 
 /* About us page starts here */
@@ -253,7 +274,6 @@ Updated: 2024-02-07 13:22:36
 }
 .dots-img {
   width: 100%;
-  
 }
 
 /* Image Styling */
@@ -364,26 +384,7 @@ Updated: 2024-02-07 13:22:36
   flex-direction: column;
   gap: 30px;
 }
-.card-title {
-  text-align: center;
-  font-family: "Saira";
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 36px;
-  letter-spacing: 0.24px;
-}
 
-.card-text {
-  height: 64px;
-  text-align: center;
-  font-family: "Inter";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
-  letter-spacing: 0.18px;
-}
 /* Service section styles ends here*/
 
 /* Offer section styles starts here*/
@@ -515,21 +516,97 @@ a:focus {
   background: transparent !important;
 }
 
-.sub-title {
-  color: #43a661;
-  font-family: "Inter";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  margin-bottom: 8px;
-}
-
-/* Sub-section styles starts here */
+/* Staff augmentation section styles starts here */
 .sub-section {
   margin-top: 155px;
 }
-/* Sub-section styles ends here */
+
+.sub-section-title {
+  font-family: "Inter";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 49.8px;
+}
+.accordion-button:not(.collapsed) {
+  color: #333333;
+  background-color: #f9f9f9;
+  /* box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125); */
+  box-shadow: 0px 2px 23px 0px rgba(76, 76, 76, 0.04);
+}
+
+.accordion-button.collapsed {
+  color: #333333;
+  background-color: #f9f9f9;
+  box-shadow: 0px 2px 23px 0px rgba(76, 76, 76, 0.04);
+  /* box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125); */
+}
+
+.accordion-item {
+  border: 0px;
+}
+
+.accordion-button.collapsed.accordion-button {
+  border-radius: 5px;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-radius: 5px;
+}
+
+.accordion-button:not(.collapsed) {
+  border-radius: 5px;
+}
+
+.accordion-item:last-of-type:not(.collapsed) .accordion-button {
+  border-radius: 5px;
+}
+
+.accordion-item:first-of-type:not(.collapsed) .accordion-button {
+  border-radius: 5px;
+}
+
+.faq-title {
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.18px;
+}
+
+.faq-details {
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.18px;
+}
+
+.about-faq-title {
+  color: #43a661 !important;
+  background-color: #fff !important;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about-faq-details {
+  color: var(--Paragraph-Colour, #999);
+  background-color: #f7fbfb;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 177.778% */
+  letter-spacing: 0.18px;
+}
+
+/* Staff augmentation section styles ends here */
 
 .gs_logo_area.carousel_has--dots .gs_logo_container {
   padding-bottom: 30px;
@@ -604,6 +681,14 @@ a:focus {
   /* 77.778% */
 }
 
+.sub-title {
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39.84px;
+}
+
 /* dashed arrow css */
 #wrapper {
   width: 680px;
@@ -669,89 +754,6 @@ a:focus {
   background-position: center;
   background-repeat: no-repeat; */
   z-index: 999;
-}
-
-.accordion-button:not(.collapsed) {
-  color: #333333;
-  background-color: #f9f9f9;
-  /* box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125); */
-  box-shadow: 0px 2px 23px 0px rgba(76, 76, 76, 0.04);
-}
-
-.accordion-button.collapsed {
-  color: #333333;
-  background-color: #f9f9f9;
-  box-shadow: 0px 2px 23px 0px rgba(76, 76, 76, 0.04);
-  /* box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125); */
-}
-
-.accordion-item {
-  border: 0px;
-}
-
-.accordion-button.collapsed.accordion-button {
-  border-radius: 5px;
-}
-
-.accordion-item:last-of-type .accordion-button.collapsed {
-  border-radius: 5px;
-}
-
-.accordion-button:not(.collapsed) {
-  border-radius: 5px;
-}
-
-.accordion-item:last-of-type:not(.collapsed) .accordion-button {
-  border-radius: 5px;
-}
-
-.accordion-item:first-of-type:not(.collapsed) .accordion-button {
-  border-radius: 5px;
-}
-
-.faq-title {
-  color: var(--Text-Title-Text, #333);
-  font-variant-numeric: lining-nums proportional-nums;
-  font-family: "Inter";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 22px;
-  /* 122.222% */
-  letter-spacing: 0.18px;
-}
-
-.faq-details {
-  color: var(--Paragraph-Colour, #999);
-  font-family: "Inter";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
-  /* 177.778% */
-  letter-spacing: 0.18px;
-}
-
-.about-faq-title {
-  color: #43a661 !important;
-  background-color: #fff !important;
-  font-family: "Inter";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.about-faq-details {
-  color: var(--Paragraph-Colour, #999);
-  background-color: #f7fbfb;
-  font-family: "Inter";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
-  /* 177.778% */
-  letter-spacing: 0.18px;
 }
 
 .dots-bottom-left {
@@ -968,7 +970,7 @@ a:focus {
     width: 20%;
     height: 15%;
     left: 14%;
-    top: -1%;
+    top: -2%;
   }
 
   .stf-arrow-top2 {
@@ -984,7 +986,7 @@ a:focus {
     width: 20%;
     height: 15%;
     left: 40%;
-    top: 31%;
+    top: 48%;
   }
 
   .fsd-arrow-top1 {
@@ -1277,7 +1279,6 @@ a:focus {
     width: 20%;
     height: 14%;
     left: 40%;
-    top: 29%;
   }
 
   .fsd-arrow-top1 {
@@ -1557,7 +1558,7 @@ a:focus {
     width: 18%;
     height: 9%;
     left: 40%;
-    top: 23%;
+    top: 29%;
   }
 
   .fsd-arrow-top1 {
@@ -1725,6 +1726,29 @@ a:focus {
 }
 
 @media (min-width: 1400px) {
+  .stf-arrow-top1 {
+    z-index: 999;
+    width: 18%;
+    height: 9%;
+    left: 15%;
+    top: 5%;
+  }
+
+  .stf-arrow-top2 {
+    z-index: 999;
+    width: 18%;
+    height: 9%;
+    left: 66%;
+    top: 5%;
+  }
+
+  .stf-arrow-bottom {
+    z-index: 999;
+    width: 18%;
+    height: 9%;
+    left: 40%;
+    top: 32%;
+  }
   .container-xxl,
   .container-xl,
   .container-lg,
@@ -1736,6 +1760,29 @@ a:focus {
 }
 
 @media (min-width: 1700px) {
+  .stf-arrow-top1 {
+    z-index: 999;
+    width: 18%;
+    height: 9%;
+    left: 15%;
+    top: 5%;
+  }
+
+  .stf-arrow-top2 {
+    z-index: 999;
+    width: 18%;
+    height: 9%;
+    left: 66%;
+    top: 5%;
+  }
+
+  .stf-arrow-bottom {
+    z-index: 999;
+    width: 18%;
+    height: 9%;
+    left: 40%;
+    top: 37%;
+  }
   .container-xxl,
   .container-xl,
   .container-lg,
