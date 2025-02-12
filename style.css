@@ -756,11 +756,11 @@ a:focus {
   z-index: 999;
 }
 .accordion-button:not(.collapsed)::after {
-  background:  url(./assets/images/arrow-right.png) no-repeat;
+  background: url(./assets/images/arrow-right.png) no-repeat;
   transform: rotate(-90deg);
 }
 .accordion-button::after {
-  background:  url(./assets/images/arrow-right.png) no-repeat;
+  background: url(./assets/images/arrow-right.png) no-repeat;
   transform: rotate(0deg);
 }
 .accordion-button:not(.collapsed) {
@@ -825,7 +825,7 @@ a:focus {
 }
 
 .about-faq-title {
-  color: #2A3BA0 !important;
+  color: #2a3ba0 !important;
   font-family: "Inter";
   font-size: 18px;
   font-style: normal;
@@ -847,21 +847,21 @@ a:focus {
 }
 
 .dots-bottom-left {
-  background-image: url("assets/images/dots-block-left.png");
+  background-image: url("assets/images/dot-image.png");
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 320px;
 }
 
 .dots-block-left {
-  background-image: url("assets/images/dots-block-left.png");
+  background-image: url("assets/images/dot-image.png");
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 320px;
 }
 
 .dots-block-right {
-  background-image: url("assets/images/dots-block-right.png");
+  background-image: url("assets/images/dot-image.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 320px;
