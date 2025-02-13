@@ -1,5 +1,5 @@
 <!-- header section starts -->
-<div style="margin-top: 60px; margin-bottom: 50px;">
+<div class="header-part">
     <div class="position-relative">
         <div class="dots-block-img position-absolute">
             <img class="dots-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/dot-image.png"
@@ -10,23 +10,27 @@
         <div class="row flex-lg-row flex-column-reverse p-2">
             <div class="col-md-12 col-lg-6 pt-md-3">
                 <div>
-                    <div class="title text-center text-lg-start innova-color-230">Global Expansion</div>
+                    <div class="title text-start text-lg-start text-lg-start innova-color-230">Global Expansion</div>
                     <div class="sub-section">
-                        <div class="sub-section-title text-uppercase text-center text-lg-start innova-color-240">Seamlessly extend your business in our market</div>
-                        <p class="paragraph text-center text-lg-start mt-4 innova-color-270">Expand your horizons and conquer new markets
-                            with our Global Expansion service. At Innova Soft Ltd., we provide the expertise and support you
+                        <div
+                            class="sub-section-title text-uppercase text-start text-lg-start text-lg-start innova-color-240">
+                            Seamlessly extend your business in our market</div>
+                        <p class="paragraph text-start text-lg-start text-lg-start mt-4 innova-color-270">Expand your
+                            horizons and conquer new markets
+                            with our Global Expansion service. At Innova Soft Ltd., we provide the expertise and support
+                            you
                             need to thrive in our markets, bridging cultural gaps and unlocking new possibilities.</p>
-                        <div class="text-center text-lg-start">
+                        <div class="text-start text-lg-start text-lg-start">
                             <a href="<?php echo esc_url(home_url('index.php/contact-us')); ?>"
                                 class="btn card-btn mt-4 bg-innova-color-120 innova-color-10">Let's
                                 talk
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke-width="3" stroke="currentColor" style="width: 18px; height: 16px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                                    stroke="currentColor" style="width: 18px; height: 16px;">
                                     <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                                        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                                 </svg>
                             </a>
-                    </div>
+                        </div>
                     </div>
 
                 </div>
@@ -45,12 +49,13 @@
 <div class="section-gap bg-innova-color-10">
     <div class="container">
         <div class="d-flex justify-content-center align-items-center">
-            <div class="py-1 text-center">
-                <div class="title text-center innova-color-230">Curious to Know More...</div>
-                <div class="d-flex justify-content-center align-items-center">
-                    <p class="paragraph mt-3 w-75 text-center innova-color-310">Embark on a journey of global growth with our Global Expansion
-                        service. Discover the strategies and insights that propel businesses to new heights. At Innova
-                        Soft Ltd., we pave the way for your success in our diverse market.</p>
+            <div class="py-1">
+                <div class="title text-start text-lg-center innova-color-230">Curious to Know More...</div>
+                <div class="d-flex justify-content-lg-center justify-content-start align-items-center">
+                    <p class="paragraph mt-3 text-lg-center text-start innova-color-310 w-75 services-accordion-width">
+                        Embark on a journey of global growth with our Global Expansion service. Discover the strategies
+                        and insights that propel businesses to new heights. At Innova Soft Ltd., we pave the way for
+                        your success in our diverse market.</p>
                 </div>
             </div>
         </div>
@@ -90,13 +95,19 @@
 <!-- section 2 ends  -->
 
 <!-- section 3 ends  -->
-<div class="my-5">
+<div class="section-gap">
     <div class="container">
         <div class="d-flex justify-content-center align-items-center">
-            <div class="py-3 text-center w-75">
-                <div class="title text-center innova-color-230">Charting Your Global Journey: Seamless Onboarding Process</div>
-                <p class="paragraph mt-3 text-center innova-color-310">Experience a seamless onboarding journey with our Global Expansion
-                    service. Follow these four steps to unlock international opportunities:</p>
+            <div class="py-1">
+                <div class="title text-lg-center text-start innova-color-230">Charting Your Global Journey: Seamless
+                    Onboarding
+                    Process</div>
+                <div class="d-flex justify-content-center align-items-center">
+                    <p class="paragraph mt-3 text-lg-center text-start innova-color-310 w-75 services-accordion-width">
+                        Experience a seamless onboarding
+                        journey with our Global Expansion service. Follow these four steps to unlock international
+                        opportunities:</p>
+                </div>
             </div>
         </div>
         <div class="position-relative">
@@ -110,15 +121,18 @@
                 <div class="col-12 col-md-6 col-lg-3 p-2">
                     <div class="card-margin-top">
                         <div class="d-flex justify-content-center align-items-center">
-                            <div>
-                                <div class="circle1 position-relative" style="margin: 0 auto;">
+                            <div class="my-3">
+                                <div class="circle1 position-relative mx-lg-auto mb-3">
                                     <span class="position-absolute translate-middle badge rounded-circle"
                                         style="top: 20px; left: 15px; background-color: #2a3ba0;width: 22px; height:22px;">
                                         1
                                     </span>
                                 </div>
-                                <h5 class="card-title card-margin-top innova-color-260">Market Research</h5>
-                                <p class="card-text mb-2 innova-color-270">Gain insights into target markets and assess opportunities
+                                <h5 class="card-title card-margin-top innova-color-260 text-lg-center text-start">Market
+                                    Research</h5>
+                                <p class="card-text mb-2 innova-color-270 text-lg-center text-start">Gain insights into
+                                    target markets and assess
+                                    opportunities
                                     for expansion.</p>
                             </div>
                         </div>
@@ -128,15 +142,18 @@
                 <div class="col-12 col-md-6 col-lg-3 p-2">
                     <div class="card-margin-top">
                         <div class="d-flex justify-content-center align-items-center">
-                            <div>
-                                <div class="circle2 position-relative" style="margin: 0 auto;">
+                            <div class="my-3">
+                                <div class="circle2 position-relative mx-lg-auto mb-3">
                                     <span class="position-absolute translate-middle badge rounded-circle"
                                         style="top: 20px; left: 15px; background-color: #2a3ba0;width: 22px; height:22px;">
                                         2
                                     </span>
                                 </div>
-                                <h5 class="card-title card-margin-top innova-color-260">Strategy Development</h5>
-                                <p class="card-text mb-2 innova-color-270">Craft a tailored expansion strategy, considering market
+                                <h5 class="card-title card-margin-top innova-color-260 text-lg-center text-start">
+                                    Strategy Development</h5>
+                                <p class="card-text mb-2 innova-color-270 text-lg-center text-start">Craft a tailored
+                                    expansion strategy,
+                                    considering market
                                     dynamics and competitive landscape.</p>
                             </div>
                         </div>
@@ -145,15 +162,18 @@
                 <div class="col-12 col-md-6 col-lg-3 p-2">
                     <div class="card-margin-top">
                         <div class="d-flex justify-content-center align-items-center">
-                            <div>
-                                <div class="circle3 position-relative" style="margin: 0 auto;">
+                            <div class="my-3">
+                                <div class="circle3 position-relative mx-lg-auto mb-3">
                                     <span class="position-absolute translate-middle badge rounded-circle"
                                         style="top: 20px; left: 15px; background-color: #2a3ba0;width: 22px; height:22px;">
                                         3
                                     </span>
                                 </div>
-                                <h5 class="card-title card-margin-top innova-color-260">Execution</h5>
-                                <p class="card-text mb-2 innova-color-270">Implement your expansion plan with precision, leveraging local
+                                <h5 class="card-title card-margin-top innova-color-260 text-lg-center text-start">
+                                    Execution</h5>
+                                <p class="card-text mb-2 innova-color-270 text-lg-center text-start">Implement your
+                                    expansion plan with precision,
+                                    leveraging local
                                     resources and expertise.</p>
                             </div>
                         </div>
@@ -162,15 +182,18 @@
                 <div class="col-12 col-md-6 col-lg-3 p-2">
                     <div class="card-margin-top">
                         <div class="d-flex justify-content-center align-items-center">
-                            <div>
-                                <div class="circle4 position-relative" style="margin: 0 auto;">
+                            <div class="my-3">
+                                <div class="circle4 position-relative mx-lg-auto mb-3">
                                     <span class="position-absolute translate-middle badge rounded-circle"
                                         style="top: 20px; left: 15px; background-color: #2a3ba0;width: 22px; height:22px;">
                                         4
                                     </span>
                                 </div>
-                                <h5 class="card-title card-margin-top innova-color-260">Optimization</h5>
-                                <p class="card-text mb-2 innova-color-270">Continuously optimize your approach based on market feedback
+                                <h5 class="card-title card-margin-top innova-color-260 text-lg-center text-start">
+                                    Optimization</h5>
+                                <p class="card-text mb-2 innova-color-270 text-lg-center text-start">Continuously
+                                    optimize your approach based on
+                                    market feedback
                                     and performance metrics.</p>
                             </div>
                         </div>
@@ -187,12 +210,14 @@
     <div class="container">
         <div class="d-flex justify-content-center align-items-center">
             <div>
-                <div class="title text-center innova-color-230">FAQ (Frequently Asked Question)</div>
-                <p class="paragraph mt-3 text-center innova-color-310">Explore Global Possibilities: Answers to Your Queries</p>
+                <div class="title text-lg-center text-start innova-color-230">FAQ (Frequently Asked Question)</div>
+                <p class="paragraph mt-3 text-lg-center text-start innova-color-310">Explore Global Possibilities:
+                    Answers to Your
+                    Queries</p>
             </div>
         </div>
-        <div class="d-flex justify-content-center align-items-center">
-            <div class="accordion w-75" id="accordionExample">
+        <div class="d-flex justify-content-lg-center justify-content-start align-items-center">
+            <div class="accordion w-75 services-accordion-width" id="accordionExample">
                 <div class="accordion-item my-3">
                     <h2 class="accordion-header faq-title innova-color-320" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -253,20 +278,23 @@
             <div class="dots-block-right">
                 <div class="d-flex justify-content-center align-items-center p-5">
                     <div>
-                        <div class="title text-center innova-color-10">
+                        <div class="title text-lg-center text-start innova-color-10">
                             Expand Your Reach Today
                         </div>
-                        <p class="paragraph mt-3 text-center innova-color-10">Take the first step towards global expansion. Contact our
+                        <p class="paragraph mt-3 text-lg-center text-start innova-color-10">Take the first step towards
+                            global
+                            expansion. Contact our
                             team to explore how our Global Expansion service can unlock new opportunities for your
                             business.</p>
-                        <div class="text-center">
-                            <a href="<?php echo esc_url(home_url('index.php/contact-us')); ?>" class="btn connect-btn bg-innova-color-140 innova-color-10"
+                        <div class="text-lg-center text-start">
+                            <a href="<?php echo esc_url(home_url('index.php/contact-us')); ?>"
+                                class="btn connect-btn bg-innova-color-140 innova-color-10"
                                 style="margin-top: 10px;">Let's
                                 talk
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke-width="3" stroke="currentColor" style="width: 18px; height: 16px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                                    stroke="currentColor" style="width: 18px; height: 16px;">
                                     <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                                        d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                                 </svg>
                             </a>
                         </div>

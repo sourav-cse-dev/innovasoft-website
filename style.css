@@ -464,7 +464,6 @@ Updated: 2024-02-07 13:22:36
 }
 
 .main-navigation a {
-  color: #2f2f2f;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500 !important;
@@ -475,8 +474,7 @@ Updated: 2024-02-07 13:22:36
 
 .main-navigation a:hover {
   border-radius: 0px;
-  background: #fff;
-  color: #73bf44;
+  background-color: transparent;
 }
 
 .main-navigation ul.sub-menu a:hover {
@@ -937,7 +935,7 @@ a:focus {
   letter-spacing: 0.54px;
 }
 .fa-li {
-  margin-top: 3px;
+  margin-top: 7px;
 }
 .footer-bottom-section {
   color: #6a6a6a;
@@ -1409,6 +1407,14 @@ a:focus {
   .banner-content {
     padding: 64px 0px 64px 0px;
   }
+  .header-part {
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+  .section-gap {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
   /* .sf-arrows .sf-with-ul:after {
         content: '\f106';
         position: absolute;
@@ -1428,6 +1434,17 @@ a:focus {
 @media (max-width: 991px) {
   .banner-content {
     padding: 64px 0px 64px 0px;
+  }
+  .header-part {
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+  .section-gap {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .services-accordion-width {
+    width: 100% !important;
   }
   .main-navigation ul li {
     margin-right: 0px !important;

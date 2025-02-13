@@ -32,7 +32,7 @@
     <div class="container-sm">
         <div class="row py-5">
             <div class="col-md-12 col-lg-4 p-2">
-                <div class="title innova-color-230">Our INNOVATIVE Services</div>
+                <div class="title innova-color-230 text-uppercase">Our Innovative Services</div>
             </div>
             <div class="col-md-12 col-lg-8 p-2">
                 <p class="paragraph innova-color-250 p-3">At Innova Soft Ltd., we take pride in offering an extensive
@@ -148,7 +148,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-4 p-2">
-                <div class="title innova-color-230">What We Offer</div>
+                <div class="title innova-color-230 text-uppercase">What We Offer</div>
             </div>
             <div class="col-md-12 col-lg-8 p-2">
                 <p class="paragraph innova-color-270">InnovaSoft Limited offers custom software development services

@@ -1,5 +1,5 @@
 <!-- header section starts -->
-<div style="margin-top: 60px; margin-bottom: 50px;">
+<div class="header-part">
     <div class="position-relative">
         <div class="dots-block-img position-absolute">
             <img class="dots-img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/dot-image.png"
@@ -11,20 +11,24 @@
         <div class="row flex-lg-row flex-column-reverse p-2">
             <div class="col-md-12 col-lg-6 pt-md-3">
                 <div>
-                    <div class="title text-center text-lg-start innova-color-230">Full-Stack Development</div>
+                    <div class="title text-start text-lg-start innova-color-230">Full-Stack Development
+                    </div>
                     <div class="sub-section">
-                        <div class="sub-section-title text-left text-uppercase text-lg-start innova-color-240">Unleashing potential with Full-Stack Development
+                        <div class="sub-section-title text-start text-uppercase text-start innova-color-240">
+                            Unleashing potential with Full-Stack Development
                             solutions</div>
-                        <p class="paragraph text-center text-lg-start mt-4 innova-color-270">At Innova Soft Ltd., we believe in the power of
+                        <p class="paragraph text-start mt-4 innova-color-270">At Innova Soft Ltd., we
+                            believe in the power of
                             Full-Stack Development to propel businesses forward. Our tailored solutions empower you to
-                            innovate, adapt, and thrive in a dynamic digital landscape. From concept to execution, trust us
+                            innovate, adapt, and thrive in a dynamic digital landscape. From concept to execution, trust
+                            us
                             to transform your vision into reality.</p>
-                        <div class="text-center text-lg-start">
+                        <div class="text-start">
                             <a href="<?php echo esc_url(home_url('index.php/contact-us')); ?>"
                                 class="btn card-btn mt-4 bg-innova-color-120 innova-color-10">Let's
                                 talk
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke-width="3" stroke="currentColor" style="width: 18px; height: 16px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
+                                    stroke="currentColor" style="width: 18px; height: 16px;">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                                 </svg>
@@ -36,8 +40,7 @@
             </div>
             <div class="col-12 col-lg-6 col-xl-6 d-none d-lg-block text-center">
                 <img class="img-fluid pb-3"
-                    src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fullstack-dev-banner.png"
-                    alt="">
+                    src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fullstack-dev-banner.png" alt="">
             </div>
         </div>
     </div>
@@ -48,10 +51,15 @@
 <div class="section-gap bg-innova-color-10">
     <div class="container">
         <div class="d-flex justify-content-center align-items-center">
-            <div class="py-1 text-center">
-                <div class="title text-center innova-color-230">Explore Full-Stack Development: Unveil Our Process for Success</div>
-                <div class="d-flex justify-content-center align-items-center">
-                    <p class="paragraph mt-3 w-75 text-center innova-color-310">Discover the dynamic world of Full-Stack Development at Innova Soft
+            <div class="py-1 text-lg-center text-start">
+                <div class="title text-lg-center text-start innova-color-230">Explore Full-Stack Development: Unveil Our
+                    Process for
+                    Success</div>
+                <div class="d-flex justify-content-lg-center justify-content-start align-items-center">
+                    <p class="paragraph mt-3 text-lg-center text-start innova-color-310 w-75 services-accordion-width">
+                        Discover the dynamic world
+                        of Full-Stack
+                        Development at Innova Soft
                         Ltd. Our process integrates advanced technologies and agile methodologies to deliver scalable
                         solutions that resonate with your audience.</p>
                 </div>
@@ -87,12 +95,16 @@
 <!-- section 2 ends  -->
 
 <!-- section 3 ends  -->
-<div class="my-5">
+<div class="section-gap">
     <div class="container">
         <div class="d-flex justify-content-center align-items-center">
-            <div class="py-3 text-center w-75">
-                <div class="title text-center innova-color-230">Embark on your Full-Stack Development journey</div>
-                <p class="paragraph mt-3 text-center innova-color-310">Discover the streamlined process of onboarding for our Full-Stack
+            <div class="py-1">
+                <div class="title text-lg-center text-start innova-color-230">Embark on your Full-Stack Development
+                    journey</div>
+                <p class="paragraph mt-3 text-lg-center text-start innova-color-310 ">Discover the streamlined process
+                    of
+                    onboarding
+                    for our Full-Stack
                     Development service.</p>
             </div>
         </div>
@@ -107,15 +119,18 @@
                 <div class="col-12 col-md-6 col-lg-3 p-2">
                     <div class="card-margin-top">
                         <div class="d-flex justify-content-center align-items-center">
-                            <div>
-                                <div class="circle1 position-relative" style="margin: 0 auto;">
+                            <div class="my-3">
+                                <div class="circle1 position-relative mx-lg-auto mb-3">
                                     <span class="position-absolute translate-middle badge rounded-circle"
                                         style="top: 20px; left: 15px; background-color: #2a3ba0;width: 22px; height:22px;">
                                         1
                                     </span>
                                 </div>
-                                <h5 class="card-title card-margin-top innova-color-260">Discovery Session</h5>
-                                <p class="card-text mb-2 innova-color-270">Engage in an initial consultation where we understand your
+                                <h5 class="card-title card-margin-top innova-color-260 text-lg-center text-start">
+                                    Discovery Session</h5>
+                                <p class="card-text mb-2 innova-color-270 text-lg-center text-start">Engage in an
+                                    initial consultation where we
+                                    understand your
                                     project requirements, objectives, and expectations. This session allows us to align
                                     our services with your vision and establish clear objectives for the development
                                     process.</p>
@@ -127,15 +142,18 @@
                 <div class="col-12 col-md-6 col-lg-3 p-2">
                     <div class="card-margin-top">
                         <div class="d-flex justify-content-center align-items-center">
-                            <div>
-                                <div class="circle2 position-relative" style="margin: 0 auto;">
+                            <div class="my-3">
+                                <div class="circle2 position-relative mx-lg-auto mb-3">
                                     <span class="position-absolute translate-middle badge rounded-circle"
                                         style="top: 20px; left: 15px; background-color: #2a3ba0;width: 22px; height:22px;">
                                         2
                                     </span>
                                 </div>
-                                <h5 class="card-title card-margin-top innova-color-260">Proposal Submission</h5>
-                                <p class="card-text mb-2 innova-color-270">Following the initial consultation, we craft a tailored
+                                <h5 class="card-title card-margin-top innova-color-260 text-lg-center text-start">
+                                    Proposal Submission</h5>
+                                <p class="card-text mb-2 innova-color-270 text-lg-center text-start">Following the
+                                    initial consultation, we craft
+                                    a tailored
                                     proposal outlining the scope of work, timelines, deliverables, and pricing
                                     structure. Our proposal is designed to address your specific needs and provide
                                     clarity on the development process and project milestones.</p>
@@ -146,15 +164,18 @@
                 <div class="col-12 col-md-6 col-lg-3 p-2">
                     <div class="card-margin-top">
                         <div class="d-flex justify-content-center align-items-center">
-                            <div>
-                                <div class="circle3 position-relative" style="margin: 0 auto;">
+                            <div class="my-3">
+                                <div class="circle3 position-relative mx-lg-auto mb-3">
                                     <span class="position-absolute translate-middle badge rounded-circle"
                                         style="top: 20px; left: 15px; background-color: #2a3ba0;width: 22px; height:22px;">
                                         3
                                     </span>
                                 </div>
-                                <h5 class="card-title card-margin-top innova-color-260">Contract Drafting & Review</h5>
-                                <p class="card-text mb-2 innova-color-270">Once the proposal is accepted, we proceed with drafting the
+                                <h5 class="card-title card-margin-top innova-color-260 text-lg-center text-start">
+                                    Contract Drafting & Review</h5>
+                                <p class="card-text mb-2 innova-color-270 text-lg-center text-start">Once the proposal
+                                    is accepted, we proceed
+                                    with drafting the
                                     contract detailing the terms and conditions of the engagement. During this phase, we
                                     work closely with you to address any concerns, negotiate terms, and ensure mutual
                                     understanding and agreement before finalizing the contract.</p>
@@ -165,19 +186,20 @@
                 <div class="col-12 col-md-6 col-lg-3 p-2">
                     <div class="card-margin-top">
                         <div class="d-flex justify-content-center align-items-center">
-                            <div>
-                                <div class="circle4 position-relative" style="margin: 0 auto;">
+                            <div class="my-3">
+                                <div class="circle4 position-relative mx-lg-auto mb-3">
                                     <span class="position-absolute translate-middle badge rounded-circle"
                                         style="top: 20px; left: 15px; background-color: #2a3ba0;width: 22px; height:22px;">
                                         4
                                     </span>
                                 </div>
-                                <h5 class="card-title card-margin-top innova-color-260">Sign-off and Onboarding</h5>
-                                <p class="card-text mb-2 innova-color-270">Upon mutual agreement, the contract is signed by both parties,
-                                    signaling the official commencement of the Full-Stack Development project. Following
-                                    contract execution, we initiate the onboarding process, where key stakeholders are
-                                    introduced, project timelines are established, and initial project tasks are
-                                    assigned, setting the stage for a collaborative and successful development journey.
+                                <h5 class="card-title card-margin-top innova-color-260 text-lg-center text-start">
+                                    Sign-off and Onboarding</h5>
+                                <p class="card-text mb-2 innova-color-270 text-lg-center text-start">Upon mutual
+                                    agreement, both parties sign the contract, officially starting the Full-Stack
+                                    Development project. Onboarding follows, introducing stakeholders, setting
+                                    timelines, and assigning tasks to ensure a smooth, collaborative, and successful
+                                    development process.
                                 </p>
                             </div>
                         </div>
@@ -190,17 +212,19 @@
 <!-- section 3 ends  -->
 
 <!-- FAQ section starts  -->
-<div class="my-5">
+<div class="section-gap">
     <div class="container">
         <div class="d-flex justify-content-center align-items-center">
             <div>
-                <div class="title text-center innova-color-230">FAQ (Frequently Asked Question)</div>
-                <p class="paragraph mt-3 text-center innova-color-310">Explore commonly asked questions about our Full-Stack Development
+                <div class="title text-lg-center text-start innova-color-230">FAQ (Frequently Asked Question)</div>
+                <p class="paragraph mt-3 text-lg-center text-start innova-color-310">Explore commonly asked questions
+                    about our
+                    Full-Stack Development
                     service.</p>
             </div>
         </div>
-        <div class="d-flex justify-content-center align-items-center">
-            <div class="accordion w-75" id="accordionExample">
+        <div class="d-flex justify-content-lg-center justify-content-start align-items-center">
+            <div class="accordion w-75 services-accordion-width" id="accordionExample">
                 <div class="accordion-item my-3">
                     <h2 class="accordion-header faq-title innova-color-320" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -258,12 +282,15 @@
             <div class="dots-block-right">
                 <div class="d-flex justify-content-center align-items-center p-5">
                     <div>
-                        <div class="title text-center innova-color-10">
+                        <div class="title text-lg-center text-start innova-color-10">
                             Elevate Your Project Today
                         </div>
-                        <p class="paragraph mt-3 text-center innova-color-10">Connect with us to transform your vision into reality.</p>
-                        <div class="text-center">
-                            <a href="<?php echo esc_url(home_url('index.php/contact-us')); ?>" class="btn connect-btn bg-innova-color-140 innova-color-10"
+                        <p class="paragraph mt-3 text-lg-center text-start innova-color-10">Connect with us to transform
+                            your vision
+                            into reality.</p>
+                        <div class="text-lg-center text-start">
+                            <a href="<?php echo esc_url(home_url('index.php/contact-us')); ?>"
+                                class="btn connect-btn bg-innova-color-140 innova-color-10"
                                 style="margin-top: 10px;">Let's
                                 talk <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="3" stroke="currentColor" style="width: 18px; height: 16px;">

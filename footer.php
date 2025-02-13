@@ -8,14 +8,15 @@
      */
 ?>
 
-<footer class="text-center text-lg-start bg-innova-color-250" role="contentinfo">
+<footer class="text-start bg-innova-color-250" role="contentinfo">
     <!-- Grid container -->
     <div class="container p-4">
         <!--Grid row-->
         <div class="row" style="margin-top: 40px">
             <!-- Grid column -->
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-logo.png" alt="innovasoft" style="width: 207px">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/innovasoft-logo.png"
+                    alt="innovasoft" style="width: 207px">
                 <p class="mt-2 paragraph innova-color-280">
                     A software development Company organised and incorporated in 2022 under the Companies Act of
                     Bangladesh.
@@ -46,10 +47,10 @@
             </div>
             <!-- Grid column -->
 
-             <!-- Grid column -->
-             <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3">
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-2 col-xl-2 mt-3">
                 <h6 class="footer-title innova-color-300">Contacts</h6>
-                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                <hr class="mb-4 mt-0 d-inline-block"
                     style="width: 40px; background-color: #000; height: 2px;border: 1px solid;" />
                 <ul class="fa-ul" style="margin-left: 1.65em;">
                     <li class="mb-3">
@@ -66,7 +67,8 @@
                                         stroke-linejoin="round" />
                                 </svg>
                             </span>
-                            <span class="footer-text innova-color-290">House#B-109, Road#8, Mohakhali DOHS, Dhaka-1206, Bangladesh
+                            <span class="footer-text innova-color-290">House#B-109, Road#8, Mohakhali DOHS, Dhaka-1206,
+                                Bangladesh
                             </span>
                         </div>
                     </li>
@@ -100,7 +102,8 @@
                         <hr class="mb-4 mt-0 d-inline-block mx-auto"
                             style="width: 40px; background-color: #000; height: 2px;border: 1px solid;" />
                         <p>
-                            <a href="<?php echo esc_url(home_url('/about-us')); ?>" class="footer-text innova-color-290">About Us</a>
+                            <a href="<?php echo esc_url(home_url('/about-us')); ?>"
+                                class="footer-text innova-color-290">About Us</a>
                         </p>
                         <!-- <p>
                             <a href="#" class="footer-text">Blogs</a>
@@ -109,7 +112,8 @@
                             <a href="#" class="footer-text">Case Studies</a>
                         </p> -->
                         <p>
-                            <a href="<?php echo esc_url(home_url('/career')); ?>" class="footer-text innova-color-290">Careers</a>
+                            <a href="<?php echo esc_url(home_url('/career')); ?>"
+                                class="footer-text innova-color-290">Careers</a>
                         </p>
                     </div>
                 </div>

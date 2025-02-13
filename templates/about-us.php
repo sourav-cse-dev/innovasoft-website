@@ -12,10 +12,11 @@
         <div class="d-flex justify-content-center align-items-center flex-lg-row flex-column">
             <!-- Left Side: Text Content -->
             <div class="col-12 col-lg-6">
-                <h2 class="header-title text-start fw-bold text-uppercase innova-color-230">Crafting </br> Tomorrow's
+                <h2 class="header-title text-start fw-bold text-uppercase innova-color-230 p-3">Crafting </br>
+                    Tomorrow's
                     Solutions,
                     </br>Today</h2>
-                <p class="header-paragraph innova-color-270 text-start mt-3">
+                <p class="header-paragraph innova-color-270 text-start mt-3 p-3">
                     Innova Soft Ltd. is a pioneering IT solutions provider dedicated to driving innovation and
                     excellence in
                     the digital realm. With a fervent passion for technology and an unwavering commitment to client
@@ -47,7 +48,7 @@
 
 <!-- Our Story section starts  -->
 <div class="section-gap bg-innova-color-10">
-    <div class="dots-bottom-left">
+    <div class="">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center flex-lg-row flex-column gap-5">
                 <div class="col-12 col-lg-5">
@@ -55,7 +56,7 @@
                         src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/our-story-about.png" alt="">
                 </div>
                 <div class="col-12 col-lg-7">
-                    <div class="title text-center innova-color-230">Our Story</div>
+                    <div class="title text-start text-lg-center innova-color-230 p-3">Our Story</div>
                     <p class="paragraph mt-3 p-lg-5 p-3 text-start innova-color-310">
                         Innova Soft Ltd., situated in the vibrant city of Dhaka, Bangladesh, emerged onto the software
                         development scene in early 2023. Founded by seasoned professionals with extensive backgrounds as
@@ -84,7 +85,7 @@
     <div class="container">
         <div class="d-flex justify-content-center align-items-center flex-lg-row flex-column-reverse mt-lg-5 gap-5">
             <div class="col-12 col-lg-7">
-                <div class="title text-center innova-color-230">Our Mission</div>
+                <div class="title text-start text-lg-center innova-color-230 p-3">Our Mission</div>
                 <p class="paragraph mt-3 p-3 text-start innova-color-310">
                     As a forward-thinking company, we are constantly exploring new technologies and methodologies to
                     stay ahead of the curve. Innovation is at the heart of everything we do, and we continuously strive
@@ -124,15 +125,15 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6 my-3 my-lg-0">
-                <div class="title text-start innova-color-230 mb-3">Why choose us?</div>
-                <div class="sub-title text-start innova-color-120 mb-4">Our vision is to be the preferred
+                <div class="title text-start innova-color-230 mb-3 p-3">Why choose us?</div>
+                <div class="sub-title text-start innova-color-120 mb-4 p-3">Our vision is to be the preferred
                     partner for
                     </br> businesses seeking transformative digital </br> solutions.</div>
-                <p class="paragraph mb-5 text-start innova-color-310">We envision a future where
+                <p class="paragraph mb-5 text-start innova-color-310 p-3">We envision a future where
                     technology
                     enhances every aspect of business operations, enabling organizations to achieve their full
                     potential and make a positive impact on the world.</p>
-                <div class="accordion" id="accordionExample">
+                <div class="accordion p-3" id="accordionExample">
                     <div class="accordion-item my-3">
                         <h2 class="accordion-header ">
                             <button class="accordion-button about-faq-title bg-white" style="border: 1px solid #F0F0F0;"
