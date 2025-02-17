@@ -121,8 +121,8 @@
                 class="arrow-bottom position-absolute d-none d-lg-block" />
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/arrow-top.png"
                 class="arrow-top-right position-absolute d-none d-lg-block" />
-            <div class="row d-flex bg-transparent">
-                <div class="col-12 col-md-6 col-lg-3 p-2">
+            <div class="row d-flex bg-transparent p-3">
+                <div class="col-12 col-md-6 col-lg-3 p-3">
                     <div class="card-margin-top">
                         <div class="d-flex justify-content-center align-items-center">
                             <div class="my-3">
