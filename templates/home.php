@@ -51,7 +51,7 @@
                                 class="" alt="...">
                         </div>
 
-                        <h5 class="card-title innova-color-260">Staff Augmentation</h5>
+                        <h5 class="card-title innova-color-260 text-nowrap" id="sat-title">Staff Augmentation</h5>
                         <p class="card-text innova-color-270">Our developers work with you,
                             as part of your team.</p>
                         <div class="mt-auto">

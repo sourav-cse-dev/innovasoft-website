@@ -348,6 +348,9 @@ Updated: 2024-02-07 13:22:36
 #fst-title {
   margin-left: 0px;
 }
+#sat-title {
+  margin-left: 0px;
+}
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
   .banner-img::before {
@@ -413,6 +416,9 @@ Updated: 2024-02-07 13:22:36
 }
 #fst-title {
   margin-left: -10px;
+}
+#sat-title {
+  text-wrap: wrap !important;
 }
 /* Navbar/Header section styles ends here */
 
@@ -1272,6 +1278,9 @@ a:focus {
     /* margin-left: -25px; */
     text-wrap: wrap !important;
   }
+  #sat-title {
+    text-wrap: wrap !important;
+  }
   .menu-item-has-children > a:after {
     content: "";
     display: block;
@@ -1341,6 +1350,9 @@ a:focus {
     /* margin-left: -25px; */
     text-wrap: wrap !important;
   }
+  #sat-title {
+    margin-left: -5px;
+  }
   .main-navigation ul {
     width: 35%;
     margin: 0 auto;
@@ -1365,6 +1377,9 @@ a:focus {
   #fst-title {
     /* margin-left: -25px; */
     text-wrap: wrap !important;
+  }
+  #sat-title {
+    margin-left: -12px;
   }
   .menu-item-has-children > a:after {
     content: "";
