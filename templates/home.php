@@ -44,8 +44,8 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-6 col-lg-3 p-2">
-                <div class="card">
-                    <div class="card-body text-center">
+                <div class="card h-100">
+                    <div class="card-body text-center d-flex flex-column">
                         <div>
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/staff-augmentation.png"
                                 class="" alt="...">
@@ -54,7 +54,7 @@
                         <h5 class="card-title innova-color-260">Staff Augmentation</h5>
                         <p class="card-text innova-color-270">Our developers work with you,
                             as part of your team.</p>
-                        <div>
+                        <div class="mt-auto">
                             <a href="<?php echo esc_url(home_url('/our-services/global-expansion-2')); ?>"
                                 class="btn card-btn bg-innova-color-120 innova-color-10">Learn More <svg
                                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
@@ -67,17 +67,17 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 p-2">
-                <div class="card">
-                    <div class="card-body text-center">
+                <div class="card h-100">
+                    <div class="card-body text-center d-flex flex-column">
                         <div>
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/fullstack-development.png"
-                                class="" alt="...">
+                                class="" alt="..." style="margin-top: -4px">
                         </div>
 
-                        <h5 class="card-title innova-color-260">Full-Stack Development</h5>
+                        <h5 class="card-title innova-color-260 text-nowrap" id="fst-title">Full-Stack Development</h5>
                         <p class="card-text innova-color-270">We solve any problem that
                             you have and deploy them too.</p>
-                        <div>
+                        <div class="mt-auto">
                             <a href="<?php echo esc_url(home_url('/our-services/global-expansion-2')); ?>"
                                 class="btn card-btn bg-innova-color-120 innova-color-10">Learn More <svg
                                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
@@ -90,8 +90,8 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 p-2">
-                <div class="card">
-                    <div class="card-body text-center">
+                <div class="card h-100">
+                    <div class="card-body text-center d-flex flex-column">
                         <div>
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/mvp-development.png"
                                 class="" alt="...">
@@ -100,7 +100,7 @@
                         <h5 class="card-title innova-color-260">MVP Development</h5>
                         <p class="card-text innova-color-270">Got investors to impress?
                             We will build that for you.</p>
-                        <div>
+                        <div class="mt-auto">
                             <a href="<?php echo esc_url(home_url('/our-services/global-expansion-2')); ?>"
                                 class="btn card-btn bg-innova-color-120 innova-color-10">Learn More <svg
                                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
@@ -113,20 +113,18 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 p-2">
-                <div class="card">
-                    <div class="card-body text-center">
+                <div class="card h-100">
+                    <div class="card-body text-center d-flex flex-column">
                         <div>
                             <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/global-expansion.png"
                                 class="" alt="...">
                         </div>
 
                         <h5 class="card-title innova-color-260">Global Expansion</h5>
-                        <p class="card-text innova-color-270">Build an offshore team which
-                            functions a seamless extensions
-                            of your office.</p>
-                        <div>
+                        <p class="card-text innova-color-270">Build an offshore team that seamlessly extends your office.</p>
+                        <div class="mt-auto">
                             <a href="<?php echo esc_url(home_url('/our-services/global-expansion-2')); ?>"
-                                class="btn card-btn bg-innova-color-120 innova-color-10">Learn More <svg
+                                class="btn card-btn bg-innova-color-120 innova-color-10 ">Learn More <svg
                                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3"
                                     stroke="currentColor" style="width: 18px; height: 16px;">
                                     <path stroke-linecap="round" stroke-linejoin="round"

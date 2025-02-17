@@ -8,7 +8,7 @@
      */
 ?>
 <!DOCTYPE html>
-<html                                                                                           <?php language_attributes(); ?>>
+<html                                                                                                                                                                                <?php language_attributes(); ?>>
 
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
@@ -16,7 +16,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body                                                                                           <?php body_class(); ?>>
+<body                                                                                                                                                                                <?php body_class(); ?>>
     <?php if (function_exists('wp_body_open')) {
             wp_body_open();
         } else {
@@ -99,7 +99,7 @@
                                         class="<?php echo esc_attr(get_theme_mod('vw_corporate_lite_res_open_menu_icon', 'fas fa-bars')); ?>"></i><span
                                         class="screen-reader-text"><?php esc_html_e('Open Button', 'vw-corporate-lite'); ?></span></button>
                             </div>
-                            <div id="mySidenav" class="nav sidenav d-flex justify-content-center">
+                            <div id="mySidenav" class="nav sidenav d-flex justify-content-around">
                                 <nav id="site-navigation" class="main-navigation" role="navigation"
                                     aria-label="<?php esc_attr_e('Top Menu', 'vw-corporate-lite'); ?>">
                                     <?php

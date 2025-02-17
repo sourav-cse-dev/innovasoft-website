@@ -97,9 +97,9 @@
                     alt="">
             </div>
             <div class="col-12 col-md-7">
-                <div class="sub-title text-center text-lg-start">Get in Touch</div>
-                <div class="title text-center text-lg-start">Send Us a Message</div>
-                <p class="paragraph mt-3" style="text-align: justify;">Please fill out the form below with your inquiry,
+                <div class="sub-title text-center text-lg-start innova-color-260">Get in Touch</div>
+                <div class="title text-center text-lg-start innova-color-230">Send Us a Message</div>
+                <p class="paragraph mt-3 innova-color-270" style="text-align: justify;">Please fill out the form below with your inquiry,
                     and we'll get back to you as soon as possible. Let's turn your ideas into reality!</p>
                 <div class="p-2">
                     <?php

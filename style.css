@@ -241,6 +241,18 @@ Updated: 2024-02-07 13:22:36
   border: 0px;
   font-weight: 500;
 }
+.card {
+  /* height: 420px; */
+  padding: 20px;
+  border-radius: 10px;
+  border: 0px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 .card-title {
   text-align: center;
   font-family: "Saira";
@@ -314,10 +326,9 @@ Updated: 2024-02-07 13:22:36
 } */
 .banner-img {
   position: relative; /* Make sure the container is positioned so the pseudo-element is placed relative to it */
-  overflow: hidden;   /* Optional: helps contain the pseudo-element */
-
+  overflow: hidden; /* Optional: helps contain the pseudo-element */
 }
- 
+
 /* Create a pseudo-element that holds the background image */
 .banner-img::before {
   content: "";
@@ -326,15 +337,17 @@ Updated: 2024-02-07 13:22:36
   right: 0;
   bottom: 0;
   left: 0;
-   background-image: url(./assets/images/innovasoft-header-image.png);
+  background-image: url(./assets/images/innovasoft-header-image.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
-  z-index: -1;  /* Ensure the background stays behind any content */
-  opacity: 1;   /* Default opacity for desktop */
+  z-index: -1; /* Ensure the background stays behind any content */
+  opacity: 1; /* Default opacity for desktop */
   transition: opacity 0.3s ease; /* Smooth transition when opacity changes */
 }
- 
+#fst-title {
+  margin-left: 0px;
+}
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
   .banner-img::before {
@@ -398,21 +411,12 @@ Updated: 2024-02-07 13:22:36
   width: 100% !important;
   /* height: 90%; */
 }
+#fst-title {
+  margin-left: -10px;
+}
 /* Navbar/Header section styles ends here */
 
 /* Service section styles starts here */
-.card {
-  /* height: 420px; */
-  padding: 20px;
-  border-radius: 10px;
-  border: 0px;
-  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.card-body {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
 
 /* Service section styles ends here*/
 
@@ -1256,6 +1260,10 @@ a:focus {
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
+  #fst-title {
+    /* margin-left: -25px; */
+    text-wrap: wrap !important;
+  }
   .menu-item-has-children > a:after {
     content: "";
     display: block;
@@ -1321,6 +1329,10 @@ a:focus {
 }
 
 @media screen and (max-width: 1000px) {
+  #fst-title {
+    /* margin-left: -25px; */
+    text-wrap: wrap !important;
+  }
   .main-navigation ul {
     width: 35%;
     margin: 0 auto;
@@ -1340,6 +1352,10 @@ a:focus {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  #fst-title {
+    /* margin-left: -25px; */
+    text-wrap: wrap !important;
+  }
   .menu-item-has-children > a:after {
     content: "";
     display: block;
@@ -1400,6 +1416,9 @@ a:focus {
 
   .why-choose-img {
     width: 90%;
+  }
+  #mySidenav {
+    width: 110% !important;
   }
 }
 
