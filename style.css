@@ -1346,6 +1346,11 @@ a:focus {
 }
 
 @media screen and (max-width: 1000px) {
+  .sf-arrows .sf-with-ul:after { 
+    transform: rotate(180deg);
+    margin-top: 15px;
+    margin-left: 10px;
+  }
   #fst-title {
     /* margin-left: -25px; */
     text-wrap: wrap !important;
@@ -1446,8 +1451,15 @@ a:focus {
     width: 110% !important;
   }
 }
-
+@media (min-width: 300px) and (max-width: 575px) {
+  .sub-menu {
+    margin-left: -57% !important;
+  }
+}
 @media (min-width: 576px) and (max-width: 768px) {
+  .sub-menu {
+    margin-left: 0px !important;
+  }
   .banner-content {
     padding: 64px 0px 64px 0px;
   }
